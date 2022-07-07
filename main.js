@@ -1,6 +1,4 @@
 import './style.scss';
-import './agency.scss';
-import './services.scss'
 import './swiper-bundle.min';
 import ScrollReveal from "scrollreveal";
 import counterUp from 'counterup2'
