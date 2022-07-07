@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agency</title>
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="agency.scss">
+</head>
+<body style="overflow-x: hidden">
+
+<nav class="navbar navbar-expand-lg navbar-light   py-2 py-lg-3 navDown">
+    <div class="container px-3 px-md-3">
+        <a class="navbar-brand" href="#">
+            <img src="./img/space.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                <li class="nav-item py-1 py-lg-0 px-0 px-lg-4 ">
+                    <a class="nav-link" aria-current="page" href="index.html">Corporate</a>
+                </li>
+                <li class="nav-item py-1 py-lg-0 px-0 px-lg-4">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+
+                <li class="nav-item py-1 py-lg-0 px-0 px-lg-4">
+                    <a class="nav-link  active" href="services.html">Agency</a>
+                </li>
+
+
+
+                <li class="nav-item py-1 py-lg-0 px-0 px-lg-2 border-2 border-start ">
+                    <a class="nav-link loginBtn px-3 px-lg-4 rounded-3" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+                </li>
+
+                <li class="nav-item py-1 py-lg-0">
+                    <a class="nav-link btn d-flex justify-content-center align-items-center btn-lg btn-primary px-2 py-2 " href="#" data-bs-toggle="modal" data-bs-target="#exampleModalSignUp"  >
+                        <img src="./img/circle-user-solid.svg" class="me-2 user" alt="">
+                        <span class="small"> Sing up</span>
+                    </a>
+                </li>
+
+
+
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<!--//modal boxes-->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content p-3 ">
+
+
+            <button type="button" class="btn-close modal-close position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            <div class="modal-body ">
+
+                <div class=" justify-content-center">
+                    <div class="text-center">
+                        <h3 class="modal-title mb-2" id="exampleModalLabel">Login</h3>
+                        <p class="fs-6 mb-0">Don't have an account yet? <a href="" class="text-decoration-none text-primary">Sign up here</a></p>
+                    </div>
+
+                </div>
+
+                <div class="my-4">
+
+                    <div class="bg-white shadow-sm  text-center google-login-button mb-3">
+                        <button class=" text-black btn btn-lg btn-light">
+                <span >
+                  <img src="./img/google-icon.svg" width="18px" alt="">
+                </span>
+                            Login with Google</button>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-lg btn-primary w-100 ">Login with Email</button>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="modal-footer justify-content-center border-0">
+                <p class="text-uppercase small fw-normal">trusted by world best team</p>
+                <div class="mt-4">
+            <span>
+              <img src="./img/modal-b-1.svg" alt="" width="100px">
+            </span>
+                    <span>
+              <img src="./img/modal-b-2.svg" alt="" width="100px">
+            </span>
+                    <span>
+              <img src="./img/modal-b-3.svg" alt="" width="100px">
+            </span>
+                    <span>
+              <img src="./img/modal-b-4.svg" alt="" width="100px">
+            </span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div class="modal fade" id="exampleModalSignUp" tabindex="-1" aria-labelledby="exampleModalLabelSignUp" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content p-3 ">
+
+
+            <button type="button" class="btn-close modal-close position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            <div class="modal-body ">
+
+                <div class=" justify-content-center">
+                    <div class="text-center">
+                        <h3 class="modal-title mb-2" id="exampleModalLabelSignUp">Sign up</h3>
+                        <p class="fs-6 mb-0">Already have an account? <a href="" class="text-decoration-none text-primary">Log in here</a></p>
+                    </div>
+
+                </div>
+
+                <div class="my-4">
+
+                    <div class="bg-white shadow-sm  text-center google-login-button mb-3">
+                        <button class=" text-black btn btn-lg btn-light">
+                <span >
+                  <img src="./img/google-icon.svg" width="18px" alt="">
+                </span>
+                            Sign up with Google</button>
+                    </div>
+                    <div class="text-center mb-3">
+                        <button class="btn btn-lg btn-primary w-100 ">Sign up with Email</button>
+                    </div>
+                    <div class="">
+                        <p class="mb-0 small text-center">
+                            By continuing you agree to our  <span class="text-primary">Terms and Conditions</span>
+                        </p>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="modal-footer justify-content-center border-0">
+                <p class="text-uppercase small fw-normal">trusted by world best team</p>
+                <div class="mt-4">
+            <span>
+              <img src="./img/modal-b-1.svg" alt="" width="100px">
+            </span>
+                    <span>
+              <img src="./img/modal-b-2.svg" alt="" width="100px">
+            </span>
+                    <span>
+              <img src="./img/modal-b-3.svg" alt="" width="100px">
+            </span>
+                    <span>
+              <img src="./img/modal-b-4.svg" alt="" width="100px">
+            </span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="main position-relative">
+    <section class="mt-5" id="hero-section">
+        <div class="container">
+            <div class="row d-flex   align-items-center  ">
+                <div class="col-12 col-md-6 col-lg-7 down">
+
+                        <div class="agency-hero-control">
+                            <h1 class="display-4 display-4-5 text-primary fw-bold mb-4">Anyone, anywhere, can start a <span class="text-warning agency-type">business</span></h1>
+
+                            <div class="row mb-3">
+                                <div class="col-12  col-lg-8">
+                                    <div class="mb-4 mb-lg-0">
+                                        <input type="text" class="form-control form-control-lg w-100" placeholder="Enter your Email" >
+
+                                    </div>
+                                </div>
+
+                                <div class="col-12  col-lg-4">
+                                    <button class="btn  btn-primary btn-lg w-100">Start free trial</button>
+
+                                </div>
+                            </div>
+
+                            <p class="mb-5 mb-md-0  small text-black-50">
+                                Try Space free for 14 days, no credit card required. By entering your email, you agree to receive marketing emails from Space.
+                            </p>
+
+                            <div class="agency-svg-icon d-none d-lg-block">
+                                <a href="##content" class="text-decoration-none">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect opacity="0.3" x="11" y="4" width="2" height="10" rx="1" fill="#035A4B"></rect>
+                                        <path d="M6.70711 12.2929C6.31658 11.9024 5.68342 11.9024 5.29289 12.2929C4.90237 12.6834 4.90237 13.3166 5.29289 13.7071L11.2929 19.7071C11.6715 20.0857 12.2811 20.0989 12.6757 19.7372L18.6757 14.2372C19.0828 13.864 19.1103 13.2314 18.7372 12.8243C18.364 12.4172 17.7314 12.3897 17.3243 12.7628L12.0301 17.6159L6.70711 12.2929Z" fill="#035A4B"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-5 position-relative d-flex justify-content-center align-items-center up">
+                    <div class="agency-hero-behind-img d-block d-md-none d-lg-block"></div>
+                    <div class="d-flex justify-content-center">
+                        <img src="./img/agency-hero.jpg" alt="" class="agency-hero-img-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-space-md content-space-1" id="#content">
+        <div class="container">
+            <div class="text-center down">
+                <h3 class="fw-bold mb-3">Take the best path forward</h3>
+                <p class="mb-0 text-black-50">
+                    Actionable strategies and business marketing advice help you to grow faster.
+                </p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-4 task-up">
+                    <div class="mb-4">
+                        <div class="svg-icon mb-3">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.8797 15.375C15.9797 15.075 15.9797 14.775 15.9797 14.475C15.9797 13.775 15.7797 13.075 15.4797 12.475C14.7797 11.275 13.4797 10.475 11.9797 10.475C11.7797 10.475 11.5797 10.475 11.3797 10.575C7.37971 11.075 4.67971 14.575 2.57971 18.075L10.8797 3.675C11.3797 2.775 12.5797 2.775 13.0797 3.675C13.1797 3.875 13.2797 3.975 13.3797 4.175C15.2797 7.575 16.9797 11.675 15.8797 15.375Z" fill="#035A4B"></path>
+                                <path opacity="0.3" d="M20.6797 20.6749C16.7797 20.6749 12.3797 20.275 9.57972 17.575C10.2797 18.075 11.0797 18.375 11.9797 18.375C13.4797 18.375 14.7797 17.5749 15.4797 16.2749C15.6797 15.9749 15.7797 15.675 15.7797 15.375V15.2749C16.8797 11.5749 15.2797 7.47495 13.2797 4.07495L21.6797 18.6749C22.2797 19.5749 21.6797 20.6749 20.6797 20.6749ZM8.67972 18.6749C8.17972 17.8749 7.97972 16.975 7.77972 15.975C7.37972 13.575 8.67972 10.775 11.3797 10.375C7.37972 10.875 4.67972 14.375 2.57972 17.875C2.47972 18.075 2.27972 18.375 2.17972 18.575C1.67972 19.475 2.27972 20.475 3.27972 20.475H10.3797C9.67972 20.175 9.07972 19.3749 8.67972 18.6749Z" fill="#035A4B"></path>
+                            </svg>
+                        </div>
+
+                        <p class="text-black-50 agency-s2-p-control">
+                            Create a business with Space, whether you’ve got a fresh idea or looking for a new way to make money.
+                        </p>
+
+                        <a href="" class="text-decoration-none fw-bold">Learn about our services <span class="fas fa-angles-right"></span></a>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 task-up">
+                    <div class="mb-4">
+                        <div class="svg-icon mb-3">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.3" d="M8.70001 6C8.10001 5.7 7.39999 5.40001 6.79999 5.10001C7.79999 4.00001 8.90001 3 10.1 2.2C10.7 2.1 11.4 2 12 2C12.7 2 13.3 2.1 13.9 2.2C12 3.2 10.2 4.5 8.70001 6ZM12 8.39999C13.9 6.59999 16.2 5.30001 18.7 4.60001C18.1 4.00001 17.4 3.6 16.7 3.2C14.4 4.1 12.2 5.40001 10.5 7.10001C11 7.50001 11.5 7.89999 12 8.39999Z" fill="#035A4B"></path>
+                                <path d="M7 20C7 20.2 7 20.4 7 20.6C6.2 20.1 5.49999 19.6 4.89999 19C4.59999 18 4.00001 17.2 3.20001 16.6C2.80001 15.8 2.49999 15 2.29999 14.1C4.99999 14.7 7 17.1 7 20ZM10.6 9.89995C8.70001 8.09995 6.39999 6.89996 3.79999 6.29996C3.39999 6.89996 2.99999 7.49995 2.79999 8.19995C5.39999 8.59995 7.7 9.79996 9.5 11.6C9.8 10.9 10.2 10.3999 10.6 9.89995ZM2.20001 10.1C2.10001 10.7 2 11.4 2 12C2 12 2 12 2 12.1C4.3 12.4 6.40001 13.7 7.60001 15.6C7.80001 14.8 8.09999 14.0999 8.39999 13.3999C6.89999 11.5999 4.70001 10.4 2.20001 10.1ZM11 20C11 14 15.4 8.99996 21.2 8.09996C20.9 7.39996 20.6 6.79995 20.2 6.19995C13.8 7.49995 9 13.0999 9 19.8999C9 20.3999 9.00001 21 9.10001 21.5C9.80001 21.7 10.5 21.7999 11.2 21.8999C11.1 21.2999 11 20.7 11 20ZM19.1 19C19.4 18 20 17.2 20.8 16.6C21.2 15.8 21.5 15 21.7 14.1C19 14.7 16.9 17.1 16.9 20C16.9 20.2 16.9 20.4 16.9 20.6C17.8 20.2 18.5 19.6 19.1 19ZM15 20C15 15.9 18.1 12.6 22 12.1C22 12.1 22 12.1 22 12C22 11.3 21.9 10.7 21.8 10.1C16.8 10.7 13 14.9 13 20C13 20.7 13.1 21.2999 13.2 21.8999C13.9 21.7999 14.5 21.7 15.2 21.5C15.1 21 15 20.5 15 20Z" fill="#035A4B"></path>
+                            </svg>
+                        </div>
+
+                        <p class="text-black-50 agency-s2-p-control">
+                            Turn your retail store into an online store and keep serving customers without missing a beat.                        </p>
+
+                        <a href="" class="text-decoration-none fw-bold">Learn about our services <span class="fas fa-angles-right"></span></a>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 task-up">
+                    <div class="">
+                        <div class="svg-icon mb-3">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.3" d="M7 20.5L2 17.6V11.8L7 8.90002L12 11.8V17.6L7 20.5ZM21 20.8V18.5L19 17.3L17 18.5V20.8L19 22L21 20.8Z" fill="#035A4B"></path>
+                                <path d="M22 14.1V6L15 2L8 6V14.1L15 18.2L22 14.1Z" fill="#035A4B"></path>
+                            </svg>
+                        </div>
+
+                        <p class="text-black-50 agency-s2-p-control">
+                            Bring your business to Space, no matter which business platform you’re currently using, we’ve got it all.                        </p>
+
+                        <a href="" class="text-decoration-none fw-bold">Learn about our services <span class="fas fa-angles-right"></span></a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!--    build your brand-->
+
+    <div class="container position-relative">
+        <div class="row align-items-center justify-content-center flex-column flex-md-row position-relative ">
+            <div class="col-12 col-md-6 col-lg-6 up">
+
+                <div class="d-flex justify-content-center">
+                    <div class="agency-s2-col1-control p-5">
+                        <span class="text-cap text-black">Building tools</span>
+                        <h3 class="h3 fw-bold my-3">Build your brand</h3>
+                        <p class="mb-0 fs-6">
+                            Look professional and help customers connect with your business.
+                        </p>
+
+                        <div class="d-flex mt-5 justify-content-evenly">
+                            <div class="svg-icon-sm">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M12 17C16.4183 17 20 13.4183 20 9C20 4.58172 16.4183 1 12 1C7.58172 1 4 4.58172 4 9C4 13.4183 7.58172 17 12 17Z" fill="#035A4B"></path>
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M6.53819 9L10.568 19.3624L11.976 18.8149L13.3745 19.3674L17.4703 9H6.53819ZM9.46188 11H14.5298L11.9759 17.4645L9.46188 11Z" fill="#035A4B"></path>
+                                    <path opacity="0.3" d="M10 22H14V22C14 23.1046 13.1046 24 12 24V24C10.8954 24 10 23.1046 10 22V22Z" fill="#035A4B"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 17C8 16.4477 8.44772 16 9 16H15C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18C15.5523 18 16 18.4477 16 19C16 19.5523 15.5523 20 15 20C15.5523 20 16 20.4477 16 21C16 21.5523 15.5523 22 15 22H9C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18C8.44772 18 8 17.5523 8 17Z" fill="#035A4B"></path>
+                                </svg>
+                            </div>
+
+                            <div class="ms-3">
+                                <h5 class="fw-bold text-primary">
+                                    Generate a business name <span class="fas fa-angle-right"></span>
+                                </h5>
+
+                                <p>
+                                    Find a name that fits your personality and business idea.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex mt-5 justify-content-evenly">
+                            <div class="svg-icon-sm">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.3" d="M21 18.3V4H20H5C4.4 4 4 4.4 4 5V20C10.9 20 16.7 15.6 19 9.5V18.3C18.4 18.6 18 19.3 18 20C18 21.1 18.9 22 20 22C21.1 22 22 21.1 22 20C22 19.3 21.6 18.6 21 18.3Z" fill="#035A4B"></path>
+                                    <path d="M22 4C22 2.9 21.1 2 20 2C18.9 2 18 2.9 18 4C18 4.7 18.4 5.29995 18.9 5.69995C18.1 12.6 12.6 18.2 5.70001 18.9C5.30001 18.4 4.7 18 4 18C2.9 18 2 18.9 2 20C2 21.1 2.9 22 4 22C4.8 22 5.39999 21.6 5.79999 20.9C13.8 20.1 20.1 13.7 20.9 5.80005C21.6 5.40005 22 4.8 22 4Z" fill="#035A4B"></path>
+                                </svg>
+                            </div>
+
+                            <div class="ms-3">
+                                <h5 class="fw-bold text-primary">
+                                    Create a free logo <span class="fas fa-angle-right"></span>
+                                </h5>
+
+                                <p>
+                                    Find a name that fits your personality and business idea.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 up">
+                <div class="agency-s2-img-control content-space-1 d-flex justify-content-center">
+                    <img src="./img/agency-s2.jpg" alt="" class="w-100">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="agency-s2-behind-img down"></div>
+    </div>
+
+<div class="container content-space-1 content-space-md">
+    <div class="text-center">
+        <img src="./img/agency-c1.svg" alt="" width="120px" >
+
+        <figure class="">
+            <div class="d-flex justify-content-center mt-5">
+                <blockquote class="blockquote agency-blockquote ">
+                    “ I just wanted to say that I'm very happy with my purchase of Space so far. The documentation is outstanding - clear and detailed. ”
+
+                </blockquote>
+            </div>
+
+            <div class="my-3">
+                <figcaption>
+                    Philip
+                </figcaption>
+                <span class="text-black-50">
+                    Product Manager | MailChimp
+                    </span>
+            </div>
+        </figure>
+
+        <div>
+            <svg class="agency-mailChimp" xmlns="http://www.w3.org/2000/svg" width="200" height="67" viewBox="0 0 200 67" fill="none">
+                <path d="M192.914 45.0629C197.106 45.0629 200 42.1687 200 38.1767C200 36.1807 199.401 34.2845 198.403 32.9871C197.305 31.5899 195.709 30.7915 193.812 30.7915C191.317 30.7915 188.922 32.6877 186.627 36.6797L186.427 36.9791L186.327 36.6797C185.729 34.9831 185.23 33.5859 184.93 32.7875C184.731 32.1887 184.631 31.9891 184.631 31.8893C184.531 31.4901 184.132 31.1907 183.633 31.1907C183.333 31.1907 183.034 31.2905 182.735 31.4901C182.435 31.6897 182.236 31.8893 182.236 32.1887C179.94 39.3743 178.044 42.8673 176.447 42.8673C176.248 42.8673 176.048 42.7675 175.948 42.6677C175.549 42.1687 175.649 41.0709 175.749 39.5739C175.848 38.4761 175.948 37.1787 175.948 35.8813C175.848 33.2865 174.451 31.6897 172.156 31.6897C169.261 31.6897 167.365 34.7835 166.467 36.5799L166.168 37.0789L166.068 36.4801C165.868 34.1847 165.07 31.4901 162.675 31.4901C159.88 31.4901 157.685 34.7835 156.387 37.5779L156.088 38.2765V37.4781C156.287 33.7855 156.387 31.5899 156.487 30.9911C156.587 30.3923 156.487 29.9931 156.287 29.6937C156.088 29.4941 155.788 29.3943 155.19 29.3943C154.291 29.4941 153.792 29.9931 153.094 31.7895C151.996 34.7835 149.102 41.8693 146.707 41.8693C146.208 41.8693 145.908 41.6697 145.609 41.3703C144.611 40.2725 145.01 37.2785 145.609 33.0869V32.7875C145.908 30.7915 145.409 30.3923 144.311 30.1927C144.212 30.1927 144.112 30.1927 144.012 30.1927C143.114 30.1927 142.715 30.9911 141.916 33.2865C140.519 37.3783 138.623 41.5699 136.527 41.5699C136.427 41.5699 136.327 41.5699 136.327 41.5699C135.23 41.3703 135.23 39.6737 135.23 37.5779C135.23 36.3803 135.23 35.0829 135.13 33.9851C134.83 31.8893 133.533 30.5919 131.836 30.4921C128.443 30.4921 126.248 34.7835 125.15 37.3783L124.95 37.9771L124.85 37.3783C124.651 35.6817 124.551 34.0849 124.451 32.3883V32.2885C130.739 24.4043 133.533 18.6158 133.633 13.7256C133.633 10.6318 132.236 8.7356 129.741 8.7356C127.944 8.7356 123.752 10.2326 122.255 24.0051C121.956 26.5999 121.856 29.1947 121.856 31.7895C118.962 35.9811 112.774 43.1667 106.786 43.1667C101.297 43.1667 97.006 38.7755 97.006 30.9911C97.006 20.6118 104.391 14.2246 109.88 14.2246C111.078 14.2246 112.076 14.524 112.874 15.2226C113.673 15.9212 114.072 16.8194 114.072 17.8174C114.072 19.2146 113.573 20.013 113.174 20.7116C113.074 20.9112 112.974 21.1108 112.874 21.3104C112.774 21.51 112.675 21.8094 112.774 22.009C112.874 22.3084 113.273 22.4083 113.772 22.4083C115.07 22.4083 117.066 20.512 117.066 17.6178C117.066 14.6238 114.571 11.53 109.98 11.53C103.094 11.53 93.9122 19.015 93.9122 31.2905C93.9122 39.8733 99.3014 45.8613 106.687 45.8613C111.876 45.8613 117.066 42.1687 121.557 35.8813L121.856 35.4821V35.9811C121.956 38.2765 122.156 40.0729 122.255 41.3703C122.355 42.1687 122.355 42.8673 122.355 43.1667C122.355 43.8653 122.455 44.4641 122.754 44.7635C123.054 45.0629 123.453 45.2625 124.052 45.2625C125.05 45.2625 125.25 44.5639 125.649 42.8673L125.749 42.3683C126.248 40.2725 128.144 33.4861 130.938 33.4861C131.437 33.4861 131.737 33.5859 132.036 33.8853C132.635 34.5839 132.535 35.8813 132.535 37.4781C132.535 38.4761 132.435 39.4741 132.535 40.4721C132.834 43.0669 133.932 44.3643 136.028 44.4641C138.124 44.4641 140.419 42.1687 141.617 40.0729L141.816 39.6737L141.916 40.1727C142.116 41.2705 143.114 45.0629 146.108 45.0629C148.902 45.0629 151.198 42.1687 153.792 36.1807L154.092 35.3823V36.2805C153.992 38.5759 153.892 41.2705 153.892 43.4661C153.892 45.1627 154.092 45.7615 154.79 45.7615H154.99C155.689 45.7615 156.188 45.3623 156.487 44.4641C158.483 37.6777 160.08 34.4841 161.776 34.4841C163.373 34.4841 163.573 37.4781 163.673 42.7675V43.1667C163.673 44.9631 163.772 45.8613 164.97 45.8613C165.868 45.8613 166.068 45.1627 166.467 43.4661C166.567 43.1667 166.667 42.7675 166.766 42.3683C168.363 36.8793 169.661 34.6837 171.257 34.6837C172.655 34.6837 172.755 36.0809 172.755 36.5799C172.854 37.5779 172.754 38.6757 172.555 39.6737C172.455 40.6717 172.355 41.5699 172.355 42.5679C172.455 44.6637 173.653 45.8613 175.649 45.9611C178.343 45.9611 180.639 42.8673 182.735 36.7795L182.834 36.3803L183.034 36.7795C183.433 37.7775 183.932 39.0749 184.331 40.5719V40.6717V40.7715C182.335 45.2625 180.838 50.2526 180.838 52.9472C180.838 56.4402 182.435 58.7356 184.93 58.8354C186.327 58.8354 189.421 58.3364 189.521 53.2466C189.521 51.1508 189.022 48.2566 188.024 44.5639L187.924 44.1647L188.323 44.3643C190.02 44.5639 191.517 45.0629 192.914 45.0629ZM124.651 27.8973C124.751 26.5999 124.85 25.4023 124.95 24.2047C125.948 16.7196 127.944 11.4302 129.94 11.4302C130.838 11.4302 131.337 12.1288 131.337 13.526C131.337 16.9192 129.142 21.8094 124.95 27.9971L124.651 28.4961V27.8973ZM186.826 54.9432C186.527 55.3424 186.128 55.542 185.529 55.542C184.93 55.542 184.431 55.3424 184.132 54.9432C183.234 53.7456 183.533 50.9512 184.93 45.8613C185.13 45.2625 185.329 44.6637 185.529 44.0649L185.729 43.5659L185.828 44.0649C187.525 49.8534 187.924 53.546 186.826 54.9432ZM187.425 39.8733L187.325 39.5739V39.4741C189.222 35.4821 191.517 33.1867 193.413 33.1867C195.609 33.1867 197.106 35.1827 197.106 37.9771C197.106 39.8733 196.307 40.8713 195.609 41.4701C194.81 42.1687 193.812 42.4681 192.715 42.4681C190.12 42.5679 188.423 41.1707 187.425 39.8733ZM64.2715 44.3643C67.2655 44.1647 69.6607 40.0729 70.4591 38.3763L70.6587 37.8773L70.7585 38.3763C71.1577 40.7715 72.5549 44.8633 76.6467 44.9631C78.4431 44.9631 80.4391 43.8653 82.5349 41.7695L82.7345 41.5699L82.8343 41.7695C84.2315 44.0649 86.0279 45.3623 88.0239 45.1627C90.9182 44.9631 92.7146 42.9671 92.8144 41.5699C92.8144 41.1707 92.7146 40.8713 92.515 40.6717C92.2156 40.3723 91.9162 40.3723 91.6168 40.5719L91.517 40.6717C90.8184 41.3703 89.6208 42.5679 88.2236 42.5679C86.5269 42.6677 85.3293 41.6697 84.5309 39.5739V39.4741L84.6307 39.3743C89.2216 33.2865 92.515 24.1049 92.2156 17.9172C92.1158 15.023 91.2176 11.6298 88.1238 11.6298H87.8244C86.6267 11.7296 85.5289 12.2286 84.6307 13.3264C81.7365 16.6198 80.2395 24.6039 80.7385 33.6857C80.8383 35.5819 81.1377 37.3783 81.7365 38.9751V39.0749L81.6367 39.1747C79.9401 41.1707 78.2435 42.2685 76.8463 42.2685C73.5529 42.2685 73.6527 36.7795 73.9521 32.1887C74.0519 31.1907 74.0519 30.5919 73.7525 30.1927C73.5529 29.8933 73.1537 29.7935 72.6547 29.7935H72.5549C71.3573 29.7935 71.1577 29.9931 70.5589 31.7895C69.3613 35.3823 66.8663 41.3703 64.3713 41.3703C63.6727 41.3703 63.1737 41.1707 62.7745 40.6717C61.5769 39.1747 62.4751 35.3823 63.1737 32.2885C63.2735 31.7895 63.4731 31.1907 63.5729 30.6917C63.7725 29.9931 63.6727 29.3943 63.4731 29.0949C63.1737 28.7955 62.6747 28.5959 62.0759 28.6957C60.978 28.7955 60.3792 29.1947 59.98 31.1907L59.8802 31.5899V31.6897C59.3812 30.9911 58.483 30.1927 56.8862 30.1927C56.7864 30.1927 56.5868 30.1927 56.3872 30.1927C54.5908 30.2925 52.5948 31.5899 51.0978 33.3863C49.4012 35.5819 48.503 38.2765 48.8024 41.0709C48.8024 41.1707 48.8024 41.3703 48.9022 41.4701V41.5699L48.8024 41.6697C47.8044 42.7675 46.7066 43.3663 45.7086 43.3663C44.1118 43.3663 43.2136 42.1687 43.2136 40.1727C43.2136 36.7795 45.509 26.6997 45.509 23.0071C45.509 19.1148 43.8124 17.019 40.7186 16.9192C36.3273 16.9192 32.8343 21.9092 29.5409 32.1887C29.2415 33.1867 28.9421 34.1847 28.6427 35.1827L28.1437 36.7795L28.2435 35.1827C28.5429 31.6897 28.7425 28.2965 28.8423 24.8035C29.0419 19.8134 28.3433 16.6198 26.7465 15.023C25.9481 14.1248 24.8503 13.7256 23.3533 13.7256C17.9641 13.7256 15.3693 22.8075 13.4731 29.2945C12.8743 31.1907 11.7764 35.5819 11.0778 38.5759L11.477 37.8773C11.7764 34.0849 12.7745 24.7037 12.6747 19.6138C12.5749 14.1248 10.7784 11.6298 6.78643 11.6298C4.59082 11.6298 3.19361 12.7276 2.29541 13.6258C0.798403 14.9232 0 17.019 0 18.8154C0 19.9132 0.698603 20.9112 1.1976 20.9112C1.49701 20.9112 1.69661 20.4122 1.79641 20.2126C3.09381 16.1208 4.69062 14.1248 6.68663 14.1248C7.58483 14.1248 8.18363 14.4242 8.68263 14.9232C10.2794 16.6198 9.98004 21.3104 9.48104 29.8933C9.38124 32.4881 9.18164 35.6817 8.98204 39.1747C8.98204 39.7735 8.88224 40.3723 8.88224 40.9711C8.68263 43.4661 8.58283 45.3623 9.48104 45.4621C10.6786 45.6617 11.477 45.1627 11.8762 43.9651C12.475 42.1687 13.7725 37.2785 16.3673 28.3963C18.8623 19.9132 20.7585 16.7196 23.1537 16.7196C25.9481 16.7196 26.1477 21.51 25.6487 31.5899C25.5489 33.6857 25.3493 36.1807 25.2495 38.7755C25.2495 39.1747 25.2495 39.4741 25.2495 39.8733C25.1497 42.0689 25.0499 43.7655 25.6487 44.4641C25.8483 44.6637 26.1477 44.7635 26.4471 44.7635C27.6447 44.7635 28.0439 43.6657 28.6427 41.9691C28.7425 41.6697 28.8423 41.3703 28.9421 40.9711C33.0339 29.5939 36.1277 19.7136 40.2196 19.7136C41.4172 19.7136 42.4152 20.7116 42.4152 22.7077C42.4152 27.1987 40.2196 35.8813 40.2196 40.2725C40.2196 41.8693 40.7186 43.2665 41.517 44.2645C42.4152 45.2625 43.6128 45.8613 45.1098 45.8613C46.507 45.8613 47.9042 45.1627 49.4012 43.8653L49.501 43.7655L49.6008 43.8653C50.5988 45.1627 52.0958 45.8613 53.7924 45.6617C56.3872 45.4621 58.483 43.1667 59.2814 41.0709L59.481 40.6717L59.6806 41.0709C60.2794 42.6677 61.5769 44.6637 64.2715 44.3643ZM87.7246 14.6238C88.024 14.6238 88.3233 14.7236 88.523 15.023C89.521 16.4202 89.521 21.4102 87.8244 27.0989C86.8263 30.3923 85.5289 33.3863 83.9321 35.9811L83.6327 36.3803L83.5329 35.8813C83.3333 34.4841 83.2335 33.0869 83.2335 31.8893C82.9341 23.3065 85.5289 14.7236 87.7246 14.6238ZM59.481 34.6837C58.5828 38.2765 56.8862 42.5679 53.7924 42.8673H53.493C52.1956 42.8673 51.497 42.0689 51.3972 40.3723C51.1976 38.2765 52.0958 35.8813 53.6926 34.1847C54.6906 33.0869 55.7884 32.4881 56.7864 32.4881C58.1836 32.5879 59.0818 33.5859 59.481 34.6837ZM73.7525 21.51C72.6547 21.51 71.6567 22.4082 71.6567 23.5061C71.6567 24.6039 72.5549 25.5021 73.6527 25.5021V25.7017V25.5021C74.7505 25.5021 75.6487 24.6039 75.7485 23.5061C75.8483 22.4082 74.9501 21.51 73.7525 21.51ZM145.309 21.51C144.212 21.51 143.214 22.4082 143.214 23.5061C143.214 24.6039 144.112 25.5021 145.21 25.5021V25.7017V25.5021C146.307 25.5021 147.305 24.6039 147.305 23.5061C147.405 22.4082 146.507 21.51 145.309 21.51Z" fill="#008060"></path>
+            </svg>
+        </div>
+    </div>
+</div>
+
+
+<!-- More ways to build -->
+
+<section class="content-space-1 content-space-md bg-primary position-relative">
+    <div class="container">
+        <div class="text-center down">
+            <h3 class="text-white fw-bold">More ways to build</h3>
+            <p class="text-white">
+                Space's feature-rich designed demo pages help you create the best possible product.
+            </p>
+        </div>
+        
+        <div class="swiper mySwiper ">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide ">
+                    <div class="d-flex justify-content-center  my-5">
+                        <div class="position-relative">
+                            <div class="phone d-none d-md-none d-lg-block ">
+                                <div class="phone-frame p-1">
+                                    <img src="./img/phone.jpg" alt="">
+
+                                </div>
+                            </div>
+
+                            <div class="browser">
+
+                                <div class="browser-frame bg-white">
+                                    <div class="browser-header d-flex">
+                                        <div class="d-flex p-2 ms-3">
+                                            <div class="circle me-1"></div>
+                                            <div class="circle me-1"></div>
+                                            <div class="circle me-1"></div>
+
+                                        </div>
+
+                                        <div class="browser-url">
+                                            www.htmlstream.com/space/
+                                        </div>
+                                    </div>
+                                    <img src="./img/pc1.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="swiper-slide ">
+                    <div class="d-flex justify-content-center my-5">
+                        <div class="position-relative">
+                            <div class="phone  ">
+                                <div class="phone-frame p-1">
+                                    <img src="./img/phone2.jpg" alt="">
+
+                                </div>
+                            </div>
+
+                            <div class="browser">
+
+                                <div class="browser-frame bg-white">
+                                    <div class="browser-header d-flex">
+                                        <div class="d-flex p-2 ms-3">
+                                            <div class="circle me-1"></div>
+                                            <div class="circle me-1"></div>
+                                            <div class="circle me-1"></div>
+
+                                        </div>
+
+                                        <div class="browser-url">
+                                            www.htmlstream.com/space/
+                                        </div>
+                                    </div>
+                                    <img src="./img/pc-2.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="d-flex justify-content-center my-5">
+                        <div class="position-relative">
+                            <div class="phone  ">
+                                <div class="phone-frame p-1">
+                                    <img src="./img/phone2.jpg" alt="">
+
+                                </div>
+                            </div>
+
+                            <div class="browser">
+
+                                <div class="browser-frame bg-white">
+                                    <div class="browser-header d-flex">
+                                        <div class="d-flex p-2 ms-3">
+                                            <div class="circle me-1"></div>
+                                            <div class="circle me-1"></div>
+                                            <div class="circle me-1"></div>
+
+                                        </div>
+
+                                        <div class="browser-url">
+                                            www.htmlstream.com/space/
+                                        </div>
+                                    </div>
+                                    <img src="./img/pc-2.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+        
+            </div>
+            <div class="swiper-pagination mt-5"></div>
+        </div>
+        
+    </div>
+
+    <div class="grid-lines ">
+        <div class="lines-container">
+            <div class="line-item"></div>
+            <div class="line-item"></div>
+            <div class="line-item"></div>
+            <div class="line-item"></div>
+            <div class="line-item"></div>
+            <div class="line-item"></div>
+
+
+
+        </div>
+    </div>
+
+</section>
+
+<!--    End more ways to build-->
+
+
+    <div class="container content-space-1 content-space-md">
+        <div class="text-center">
+            <img src="./img/agency-c1.svg" alt="" width="120px" >
+
+            <figure class="">
+                <div class="d-flex justify-content-center mt-5">
+                    <blockquote class="blockquote agency-blockquote">
+                        “ I just wanted to say that I'm very happy with my purchase of Space so far. The documentation is outstanding - clear and detailed. ”
+
+                    </blockquote>
+                </div>
+
+                <div class="my-3">
+                    <figcaption>
+                        Philip
+                    </figcaption>
+                    <span class="text-black-50">
+                    Product Manager | MailChimp
+                    </span>
+                </div>
+            </figure>
+
+            <div>
+                <svg class="agency-mailChimp" xmlns="http://www.w3.org/2000/svg" width="200" height="67" viewBox="0 0 200 67" fill="none">
+                    <path d="M192.914 45.0629C197.106 45.0629 200 42.1687 200 38.1767C200 36.1807 199.401 34.2845 198.403 32.9871C197.305 31.5899 195.709 30.7915 193.812 30.7915C191.317 30.7915 188.922 32.6877 186.627 36.6797L186.427 36.9791L186.327 36.6797C185.729 34.9831 185.23 33.5859 184.93 32.7875C184.731 32.1887 184.631 31.9891 184.631 31.8893C184.531 31.4901 184.132 31.1907 183.633 31.1907C183.333 31.1907 183.034 31.2905 182.735 31.4901C182.435 31.6897 182.236 31.8893 182.236 32.1887C179.94 39.3743 178.044 42.8673 176.447 42.8673C176.248 42.8673 176.048 42.7675 175.948 42.6677C175.549 42.1687 175.649 41.0709 175.749 39.5739C175.848 38.4761 175.948 37.1787 175.948 35.8813C175.848 33.2865 174.451 31.6897 172.156 31.6897C169.261 31.6897 167.365 34.7835 166.467 36.5799L166.168 37.0789L166.068 36.4801C165.868 34.1847 165.07 31.4901 162.675 31.4901C159.88 31.4901 157.685 34.7835 156.387 37.5779L156.088 38.2765V37.4781C156.287 33.7855 156.387 31.5899 156.487 30.9911C156.587 30.3923 156.487 29.9931 156.287 29.6937C156.088 29.4941 155.788 29.3943 155.19 29.3943C154.291 29.4941 153.792 29.9931 153.094 31.7895C151.996 34.7835 149.102 41.8693 146.707 41.8693C146.208 41.8693 145.908 41.6697 145.609 41.3703C144.611 40.2725 145.01 37.2785 145.609 33.0869V32.7875C145.908 30.7915 145.409 30.3923 144.311 30.1927C144.212 30.1927 144.112 30.1927 144.012 30.1927C143.114 30.1927 142.715 30.9911 141.916 33.2865C140.519 37.3783 138.623 41.5699 136.527 41.5699C136.427 41.5699 136.327 41.5699 136.327 41.5699C135.23 41.3703 135.23 39.6737 135.23 37.5779C135.23 36.3803 135.23 35.0829 135.13 33.9851C134.83 31.8893 133.533 30.5919 131.836 30.4921C128.443 30.4921 126.248 34.7835 125.15 37.3783L124.95 37.9771L124.85 37.3783C124.651 35.6817 124.551 34.0849 124.451 32.3883V32.2885C130.739 24.4043 133.533 18.6158 133.633 13.7256C133.633 10.6318 132.236 8.7356 129.741 8.7356C127.944 8.7356 123.752 10.2326 122.255 24.0051C121.956 26.5999 121.856 29.1947 121.856 31.7895C118.962 35.9811 112.774 43.1667 106.786 43.1667C101.297 43.1667 97.006 38.7755 97.006 30.9911C97.006 20.6118 104.391 14.2246 109.88 14.2246C111.078 14.2246 112.076 14.524 112.874 15.2226C113.673 15.9212 114.072 16.8194 114.072 17.8174C114.072 19.2146 113.573 20.013 113.174 20.7116C113.074 20.9112 112.974 21.1108 112.874 21.3104C112.774 21.51 112.675 21.8094 112.774 22.009C112.874 22.3084 113.273 22.4083 113.772 22.4083C115.07 22.4083 117.066 20.512 117.066 17.6178C117.066 14.6238 114.571 11.53 109.98 11.53C103.094 11.53 93.9122 19.015 93.9122 31.2905C93.9122 39.8733 99.3014 45.8613 106.687 45.8613C111.876 45.8613 117.066 42.1687 121.557 35.8813L121.856 35.4821V35.9811C121.956 38.2765 122.156 40.0729 122.255 41.3703C122.355 42.1687 122.355 42.8673 122.355 43.1667C122.355 43.8653 122.455 44.4641 122.754 44.7635C123.054 45.0629 123.453 45.2625 124.052 45.2625C125.05 45.2625 125.25 44.5639 125.649 42.8673L125.749 42.3683C126.248 40.2725 128.144 33.4861 130.938 33.4861C131.437 33.4861 131.737 33.5859 132.036 33.8853C132.635 34.5839 132.535 35.8813 132.535 37.4781C132.535 38.4761 132.435 39.4741 132.535 40.4721C132.834 43.0669 133.932 44.3643 136.028 44.4641C138.124 44.4641 140.419 42.1687 141.617 40.0729L141.816 39.6737L141.916 40.1727C142.116 41.2705 143.114 45.0629 146.108 45.0629C148.902 45.0629 151.198 42.1687 153.792 36.1807L154.092 35.3823V36.2805C153.992 38.5759 153.892 41.2705 153.892 43.4661C153.892 45.1627 154.092 45.7615 154.79 45.7615H154.99C155.689 45.7615 156.188 45.3623 156.487 44.4641C158.483 37.6777 160.08 34.4841 161.776 34.4841C163.373 34.4841 163.573 37.4781 163.673 42.7675V43.1667C163.673 44.9631 163.772 45.8613 164.97 45.8613C165.868 45.8613 166.068 45.1627 166.467 43.4661C166.567 43.1667 166.667 42.7675 166.766 42.3683C168.363 36.8793 169.661 34.6837 171.257 34.6837C172.655 34.6837 172.755 36.0809 172.755 36.5799C172.854 37.5779 172.754 38.6757 172.555 39.6737C172.455 40.6717 172.355 41.5699 172.355 42.5679C172.455 44.6637 173.653 45.8613 175.649 45.9611C178.343 45.9611 180.639 42.8673 182.735 36.7795L182.834 36.3803L183.034 36.7795C183.433 37.7775 183.932 39.0749 184.331 40.5719V40.6717V40.7715C182.335 45.2625 180.838 50.2526 180.838 52.9472C180.838 56.4402 182.435 58.7356 184.93 58.8354C186.327 58.8354 189.421 58.3364 189.521 53.2466C189.521 51.1508 189.022 48.2566 188.024 44.5639L187.924 44.1647L188.323 44.3643C190.02 44.5639 191.517 45.0629 192.914 45.0629ZM124.651 27.8973C124.751 26.5999 124.85 25.4023 124.95 24.2047C125.948 16.7196 127.944 11.4302 129.94 11.4302C130.838 11.4302 131.337 12.1288 131.337 13.526C131.337 16.9192 129.142 21.8094 124.95 27.9971L124.651 28.4961V27.8973ZM186.826 54.9432C186.527 55.3424 186.128 55.542 185.529 55.542C184.93 55.542 184.431 55.3424 184.132 54.9432C183.234 53.7456 183.533 50.9512 184.93 45.8613C185.13 45.2625 185.329 44.6637 185.529 44.0649L185.729 43.5659L185.828 44.0649C187.525 49.8534 187.924 53.546 186.826 54.9432ZM187.425 39.8733L187.325 39.5739V39.4741C189.222 35.4821 191.517 33.1867 193.413 33.1867C195.609 33.1867 197.106 35.1827 197.106 37.9771C197.106 39.8733 196.307 40.8713 195.609 41.4701C194.81 42.1687 193.812 42.4681 192.715 42.4681C190.12 42.5679 188.423 41.1707 187.425 39.8733ZM64.2715 44.3643C67.2655 44.1647 69.6607 40.0729 70.4591 38.3763L70.6587 37.8773L70.7585 38.3763C71.1577 40.7715 72.5549 44.8633 76.6467 44.9631C78.4431 44.9631 80.4391 43.8653 82.5349 41.7695L82.7345 41.5699L82.8343 41.7695C84.2315 44.0649 86.0279 45.3623 88.0239 45.1627C90.9182 44.9631 92.7146 42.9671 92.8144 41.5699C92.8144 41.1707 92.7146 40.8713 92.515 40.6717C92.2156 40.3723 91.9162 40.3723 91.6168 40.5719L91.517 40.6717C90.8184 41.3703 89.6208 42.5679 88.2236 42.5679C86.5269 42.6677 85.3293 41.6697 84.5309 39.5739V39.4741L84.6307 39.3743C89.2216 33.2865 92.515 24.1049 92.2156 17.9172C92.1158 15.023 91.2176 11.6298 88.1238 11.6298H87.8244C86.6267 11.7296 85.5289 12.2286 84.6307 13.3264C81.7365 16.6198 80.2395 24.6039 80.7385 33.6857C80.8383 35.5819 81.1377 37.3783 81.7365 38.9751V39.0749L81.6367 39.1747C79.9401 41.1707 78.2435 42.2685 76.8463 42.2685C73.5529 42.2685 73.6527 36.7795 73.9521 32.1887C74.0519 31.1907 74.0519 30.5919 73.7525 30.1927C73.5529 29.8933 73.1537 29.7935 72.6547 29.7935H72.5549C71.3573 29.7935 71.1577 29.9931 70.5589 31.7895C69.3613 35.3823 66.8663 41.3703 64.3713 41.3703C63.6727 41.3703 63.1737 41.1707 62.7745 40.6717C61.5769 39.1747 62.4751 35.3823 63.1737 32.2885C63.2735 31.7895 63.4731 31.1907 63.5729 30.6917C63.7725 29.9931 63.6727 29.3943 63.4731 29.0949C63.1737 28.7955 62.6747 28.5959 62.0759 28.6957C60.978 28.7955 60.3792 29.1947 59.98 31.1907L59.8802 31.5899V31.6897C59.3812 30.9911 58.483 30.1927 56.8862 30.1927C56.7864 30.1927 56.5868 30.1927 56.3872 30.1927C54.5908 30.2925 52.5948 31.5899 51.0978 33.3863C49.4012 35.5819 48.503 38.2765 48.8024 41.0709C48.8024 41.1707 48.8024 41.3703 48.9022 41.4701V41.5699L48.8024 41.6697C47.8044 42.7675 46.7066 43.3663 45.7086 43.3663C44.1118 43.3663 43.2136 42.1687 43.2136 40.1727C43.2136 36.7795 45.509 26.6997 45.509 23.0071C45.509 19.1148 43.8124 17.019 40.7186 16.9192C36.3273 16.9192 32.8343 21.9092 29.5409 32.1887C29.2415 33.1867 28.9421 34.1847 28.6427 35.1827L28.1437 36.7795L28.2435 35.1827C28.5429 31.6897 28.7425 28.2965 28.8423 24.8035C29.0419 19.8134 28.3433 16.6198 26.7465 15.023C25.9481 14.1248 24.8503 13.7256 23.3533 13.7256C17.9641 13.7256 15.3693 22.8075 13.4731 29.2945C12.8743 31.1907 11.7764 35.5819 11.0778 38.5759L11.477 37.8773C11.7764 34.0849 12.7745 24.7037 12.6747 19.6138C12.5749 14.1248 10.7784 11.6298 6.78643 11.6298C4.59082 11.6298 3.19361 12.7276 2.29541 13.6258C0.798403 14.9232 0 17.019 0 18.8154C0 19.9132 0.698603 20.9112 1.1976 20.9112C1.49701 20.9112 1.69661 20.4122 1.79641 20.2126C3.09381 16.1208 4.69062 14.1248 6.68663 14.1248C7.58483 14.1248 8.18363 14.4242 8.68263 14.9232C10.2794 16.6198 9.98004 21.3104 9.48104 29.8933C9.38124 32.4881 9.18164 35.6817 8.98204 39.1747C8.98204 39.7735 8.88224 40.3723 8.88224 40.9711C8.68263 43.4661 8.58283 45.3623 9.48104 45.4621C10.6786 45.6617 11.477 45.1627 11.8762 43.9651C12.475 42.1687 13.7725 37.2785 16.3673 28.3963C18.8623 19.9132 20.7585 16.7196 23.1537 16.7196C25.9481 16.7196 26.1477 21.51 25.6487 31.5899C25.5489 33.6857 25.3493 36.1807 25.2495 38.7755C25.2495 39.1747 25.2495 39.4741 25.2495 39.8733C25.1497 42.0689 25.0499 43.7655 25.6487 44.4641C25.8483 44.6637 26.1477 44.7635 26.4471 44.7635C27.6447 44.7635 28.0439 43.6657 28.6427 41.9691C28.7425 41.6697 28.8423 41.3703 28.9421 40.9711C33.0339 29.5939 36.1277 19.7136 40.2196 19.7136C41.4172 19.7136 42.4152 20.7116 42.4152 22.7077C42.4152 27.1987 40.2196 35.8813 40.2196 40.2725C40.2196 41.8693 40.7186 43.2665 41.517 44.2645C42.4152 45.2625 43.6128 45.8613 45.1098 45.8613C46.507 45.8613 47.9042 45.1627 49.4012 43.8653L49.501 43.7655L49.6008 43.8653C50.5988 45.1627 52.0958 45.8613 53.7924 45.6617C56.3872 45.4621 58.483 43.1667 59.2814 41.0709L59.481 40.6717L59.6806 41.0709C60.2794 42.6677 61.5769 44.6637 64.2715 44.3643ZM87.7246 14.6238C88.024 14.6238 88.3233 14.7236 88.523 15.023C89.521 16.4202 89.521 21.4102 87.8244 27.0989C86.8263 30.3923 85.5289 33.3863 83.9321 35.9811L83.6327 36.3803L83.5329 35.8813C83.3333 34.4841 83.2335 33.0869 83.2335 31.8893C82.9341 23.3065 85.5289 14.7236 87.7246 14.6238ZM59.481 34.6837C58.5828 38.2765 56.8862 42.5679 53.7924 42.8673H53.493C52.1956 42.8673 51.497 42.0689 51.3972 40.3723C51.1976 38.2765 52.0958 35.8813 53.6926 34.1847C54.6906 33.0869 55.7884 32.4881 56.7864 32.4881C58.1836 32.5879 59.0818 33.5859 59.481 34.6837ZM73.7525 21.51C72.6547 21.51 71.6567 22.4082 71.6567 23.5061C71.6567 24.6039 72.5549 25.5021 73.6527 25.5021V25.7017V25.5021C74.7505 25.5021 75.6487 24.6039 75.7485 23.5061C75.8483 22.4082 74.9501 21.51 73.7525 21.51ZM145.309 21.51C144.212 21.51 143.214 22.4082 143.214 23.5061C143.214 24.6039 144.112 25.5021 145.21 25.5021V25.7017V25.5021C146.307 25.5021 147.305 24.6039 147.305 23.5061C147.405 22.4082 146.507 21.51 145.309 21.51Z" fill="#008060"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--    About us-->
+    <div class="container position-relative">
+        <div class="agency-s2-behind-img2 down"></div>
+        <div class="row align-items-center  flex-column flex-md-row flex-md-row-reverse flex-lg-row flex-lg-row-reverse  justify-content-center  position-relative ">
+            <div class="col-12 col-md-6 col-lg-6 up">
+
+                <div class="d-flex justify-content-center">
+                    <div class="agency-s2-col1-control p-5">
+                        <span class="text-cap text-black">About us</span>
+                        <h3 class="h3 fw-bold my-3">We are backed by a strong roster of strategic and leading investors</h3>
+                        <p class="mb-4 text-black-50">
+                            Founded in 2012, Space has raised more than $110 million, including our most recent funding round in 2018 led by Riverwood Capital.
+                        </p>
+                        <p>
+                            Series D --
+                            <a class="link text-decoration-none  text-primary fs-6 fw-bold" >
+                                Space Secures $50M Growth Investment From Riverwood Capital
+                            </a>
+                        </p>
+
+                        <p>For more information, see the <span class="text-primary fw-bold">Span Profile</span></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 up">
+                <div class="agency-s2-img-control content-space-1 d-flex justify-content-center">
+                    <img src="./img/woman.jpg" alt="" class="w-100">
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+<!--    end about us-->
+
+    <div class="container content-space-1 content-space-md">
+        <div class="text-center">
+            <img src="./img/oc-growing.svg" alt="" width="240px" >
+
+            <figure class="d-flex justify-content-center">
+                <div class="agency-final-c3-control mt-5">
+                    <h3 class="fw-bold mb-2">Start you business journey with Space</h3>
+                    <p class="text-center mb-5 fs-6">
+                        Try Space for free, and explore all the tools and services you need to start, run, and grow your business.
+                    </p>
+                    <button class="btn btn-lg btn-primary">See free trial</button>
+                </div>
+
+
+            </figure>
+
+            <div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+<!--    footer-->
+    <div class="bg-primary-dark">
+
+
+
+        <footer>
+
+            <div class="container">
+                <div class="row content-space-1 d-flex justify-content-center px-3">
+                    <div class="col-lg-3 mb-5 mb-lg-0 down">
+                        <div class="down">
+                            <img src="img/logo-white.svg" alt="">
+                        </div>
+
+                        <div class="mt-5 mb-2">
+                            <span class="text-white  fw-bold mb-0">Choose a language</span>
+                        </div>
+
+                        <div class="btn-group " role="group">
+                            <button id="btnGroupDrop1" type="button" class="dropdown btn btn-soft-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./img/us.svg" alt="" width="16px" class="me-2 rounded-circle">
+                                English (US)
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <li class="px-2 py-1"><a class="p-2  dropdown-item" href="#">
+                                    <img src="./img/us.svg" alt="" width="16px" class="me-2 rounded-circle">
+                                    English (US)
+                                </a></li>
+                                <li class="px-2 py-1"><a class="p-2  dropdown-item" href="#">
+                                    <img src="./img/uk.svg" alt="" width="16px" class="me-2 rounded-circle">
+                                    English (UK)
+                                </a></li>
+                                <li class="px-2 py-1"><a class="p-2  dropdown-item" href="#">
+                                    <img src="./img/deutsch.svg" alt="" width="16px" class="me-2 rounded-circle">
+                                    Deutsch
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3  col-lg-2 mb-4 mb-lg-0 down">
+                        <span class="d-block text-cap mb-4 fw-bold">Resources</span>
+
+                        <ul class="  list-unstyled text-white">
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Blog</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Guidance</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Customers' stories</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Support
+                                    <i class="fas fa-arrow-up-right-from-square ms-1"></i>
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">API</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Packages</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-3 col-lg-2 mb-4 mb-lg-0 down">
+                        <span class="d-block text-cap mb-4 fw-bold">Company</span>
+
+                        <ul class="  list-unstyled text-white">
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Belonging</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Company</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Careers
+                                    <span class="badge bg-warning text-black ms-1 fw-light rounded-pill  ">We're hiring</span>
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Contacts</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Security</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-3 col-lg-2 down">
+                        <span class="d-block text-cap mb-4 fw-bold">Platform</span>
+
+                        <ul class="  list-unstyled text-white">
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Blog</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Guidance</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Customers' stories</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Support</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">API</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Packages</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-3 col-lg-2 down">
+                        <span class="d-block text-cap mb-4 fw-bold">Legel</span>
+
+                        <ul class="  list-unstyled text-white">
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Blog</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Guidance</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Customers' stories</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Support</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">API</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Packages</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="row p-4 end upInterval">
+                    <div class="col-6 col-lg-5">
+                        <p class="text-white mb-0 ">
+                            © Space. 2021 Htmlstream. All rights reserved.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <ul class="  list-unstyled d-flex justify-content-end">
+                            <li class="ms-3">
+                                <a href="" class="social-link">
+                                    <img class="social" src="./img/facebook-f-brands.svg"  alt="">
+                                </a>
+                            </li>
+
+                            <li class="ms-3">
+                                <a href="" class="social-link">
+                                    <img class="social" src="./img/twitter-brands.svg" alt="">
+                                </a>
+                            </li>
+
+                            <li class="ms-3">
+                                <a href="" class="social-link">
+                                    <img class="social" src="./img/github-brands.svg" alt="">
+                                </a>
+                            </li>
+
+                            <li class="ms-3">
+                                <a href="" class="social-link">
+                                    <img class="social" src="./img/slack-brands.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
+<!--    arrow-up-->
+
+    <div class="btn-arrow-up  animate__animated d-none">
+        <a href="#hero-section" class="btn bg-primary-soft-light ">
+            <i class="fas fa-angle-up text-primary"></i>
+        </a>
+    </div>
+
+
+</div>
+
+
+
+
+<script type="module" src="./main.js"></script>
+
+
+
+</body>
+</html>

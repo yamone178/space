@@ -1,0 +1,1189 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Services</title>
+    <link rel="stylesheet" href="./style.scss">
+    <link rel="stylesheet" href="./services.scss">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light   py-2 py-lg-3 position-absolute w-100 navDown">
+    <div class="container px-3 px-md-3">
+        <a class="navbar-brand" href="#">
+            <img src="./img/space.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav p-3 p-md-3   p-lg-0 ms-auto  mb-lg-0 mt-md-3  mt-lg-0">
+                <li class="nav-item  px-0 px-md-0  px-lg-4 mb-2 mb-md-2 mb-lg-0  ">
+                    <a class="nav-link" aria-current="page" href="index.html">Corporate</a>
+                </li>
+                <li class="nav-item px-0 px-md-0  px-lg-4 mb-2 mb-md-2 mb-lg-0 ">
+                    <a class="nav-link  active" href="services.html">Services</a>
+                </li>
+
+                <li class="nav-item px-0 px-md-0  px-lg-4 mb-2 mb-md-2 mb-lg-0 ">
+                    <a class="nav-link" href="agency.html">Agency</a>
+                </li>
+
+
+                <hr class="d-block d-lg-none opacity-25 mt-0 mb-2">
+
+                <li class=" mb-0 mb-md-2 mb-lg-0   border-2 border-start d-flex justify-content-center  link-border ">
+                    <span class="nav-item px-0 px-md-0  px-lg-2">
+                        <a class="  nav-link  border-0 nav-link  loginBtn px-3  px-lg-4 rounded-3 h-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Login
+                    </a>
+                    </span>
+
+
+                    <span class="nav-item">
+                        <a class=" btn d-flex align-items-center btn-lg btn-primary px-2 py-2 " data-bs-toggle="modal" data-bs-target="#exampleModalSignUp" >
+                        <img src="./img/circle-user-solid.svg" class="me-2 user" alt="">
+                         Sing up
+                    </a>
+                    </span>
+
+
+                </li>
+
+<!--                <li class="nav-item ">-->
+<!--                   -->
+<!--                </li>-->
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+
+<!--modalboxes-->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content p-3 ">
+
+
+            <button type="button" class="btn-close modal-close position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            <div class="modal-body ">
+
+                <div class=" justify-content-center">
+                    <div class="text-center">
+                        <h3 class="modal-title mb-2" id="exampleModalLabel">Login</h3>
+                        <p class="fs-6 mb-0">Don't have an account yet? <a href="" class="text-decoration-none text-primary">Sign up here</a></p>
+                    </div>
+
+                </div>
+
+                <div class="my-4">
+
+                    <div class="bg-white shadow-sm  text-center google-login-button mb-3">
+                        <button class=" text-black btn btn-lg btn-light">
+                <span >
+                  <img src="./img/google-icon.svg" width="18px" alt="">
+                </span>
+                            Login with Google</button>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-lg btn-primary w-100 ">Login with Email</button>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="modal-footer justify-content-center border-0">
+                <p class="text-uppercase small fw-normal">trusted by world best team</p>
+                <div class="mt-4">
+            <span>
+              <img src="./img/modal-b-1.svg" alt="" width="100px">
+            </span>
+                    <span>
+              <img src="./img/modal-b-2.svg" alt="" width="100px">
+            </span>
+                    <span>
+              <img src="./img/modal-b-3.svg" alt="" width="100px">
+            </span>
+                    <span>
+              <img src="./img/modal-b-4.svg" alt="" width="100px">
+            </span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div class="modal fade" id="exampleModalSignUp" tabindex="-1" aria-labelledby="exampleModalLabelSignUp" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content p-3 ">
+
+
+            <button type="button" class="btn-close modal-close position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            <div class="modal-body ">
+
+                <div class=" justify-content-center">
+                    <div class="text-center">
+                        <h3 class="modal-title mb-2" id="exampleModalLabelSignUp">Sign up</h3>
+                        <p class="fs-6 mb-0">Already have an account? <a href="" class="text-decoration-none text-primary">Log in here</a></p>
+                    </div>
+
+                </div>
+
+                <div class="my-4">
+
+                    <div class="bg-white shadow-sm  text-center google-login-button mb-3">
+                        <button class=" text-black btn btn-lg btn-light">
+                <span >
+                  <img src="./img/google-icon.svg" width="18px" alt="">
+                </span>
+                            Sign up with Google</button>
+                    </div>
+                    <div class="text-center mb-3">
+                        <button class="btn btn-lg btn-primary w-100 ">Sign up with Email</button>
+                    </div>
+                    <div class="">
+                        <p class="mb-0 small text-center">
+                            By continuing you agree to our  <span class="text-primary">Terms and Conditions</span>
+                        </p>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="modal-footer justify-content-center border-0">
+                <p class="text-uppercase small fw-normal">trusted by world best team</p>
+                <div class="mt-4">
+            <span>
+              <img src="./img/modal-b-1.svg" alt="" width="100px">
+            </span>
+                    <span>
+              <img src="./img/modal-b-2.svg" alt="" width="100px">
+            </span>
+                    <span>
+              <img src="./img/modal-b-3.svg" alt="" width="100px">
+            </span>
+                    <span>
+              <img src="./img/modal-b-4.svg" alt="" width="100px">
+            </span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div class="position-relative">
+    <div class="main bg-primary-soft-light position-relative " id="hero-section">
+        <div class="container content-space-1 content-space-md">
+            <div class="row mt-5 mt-lg-0 ">
+                <div class=" col-lg-6">
+                    <div class="mb-5 up">
+                        <h1 class="display-4 text-primary fw-bold">Expanding access through <span class="text-warning">technology</span></h1>
+
+                    </div>
+                </div>
+                <div class=" col-md-10 col-lg-9 ">
+
+                    <!--                //input card-->
+                    <div class="card shadow-sm up">
+                        <div class="card-body p-3">
+                            <div class="row d-flex  align-items-center">
+                                <div class="col-12 col-md col-lg border-1   border-end">
+                                    <div class="py-2 py-md-0 d-flex justify-content-center align-items-center px-3 ">
+                                        <span class="bi-person align-self-center"></span>
+                                        <input class="form-control form-control-lg d-inline-block form-control-lg border-0" type="text" placeholder="Your Name" aria-label=".form-control-lg example">
+
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md col-lg">
+                                    <div class=" py-2 py-md-0 d-flex justify-content-center align-items-center px-3">
+                                        <span class="bi-envelope-open align-self-center"></span>
+                                        <input class="form-control form-control-lg d-inline-block form-control-lg border-0" type="text" placeholder="Your Email" aria-label=".form-control-lg example">
+
+                                    </div>
+                                </div>
+
+                                <div class="col-12  col-md-3 col-lg-2 ">
+                                    <div class=" py-2 py-md-0 text-center ">
+                                        <button class="btn py-3-5  btn-primary w-100 ">Start Now</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--                // end input card-->
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-9">
+                <div class="row  mt-5 justify-content-evenly justify-content-lg-start up">
+                    <div class="col-3 ">
+                        <div class="">
+                            <h3 class="text-primary fw-bold counter">364%</h3>
+                            <p>ROI after switching to Space
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-3 mx-2">
+                        <div class="">
+                            <h3 class="text-primary fw-bold counter">10%</h3>
+                            <p>more revenue from new sellers
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="">
+                            <h3 class="text-primary fw-bold counter">67%</h3>
+                            <p>reduction in expansion costs
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--shape1-->
+
+        <div class="position-absolute shape-1">
+            <img src="./img/service-shape-1.svg" width="350px"   alt="">
+        </div>
+
+        <!--shape-2-->
+
+        <div class="position-absolute shape-2">
+            <img src="./img/service-shape-2.svg" width="200px"   alt="">
+        </div>
+    </div>
+
+
+    <!--how it works-->
+    <section class="content-space-1 content-space-md">
+        <div class="container">
+            <div class="down">
+                <div class="text-center">
+                    <h3 class="fw-bold mb-3">How it works</h3>
+                    <p class="fs-6">
+                        With Space, your company can be set up within days. We help with all the talking and walking.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row my-5 step-items svg-cover ">
+                <div class="col-12 col-md-3 col-lg-3 mb-4 mb-lg-0 up">
+                    <div class="text-center service-work-control position-relative">
+                        <div class="svg-icon d-inline-block border border-1 rounded-circle p-3 mb-3 service-svg me-4 ">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.43 8.56949L10.744 15.1395C10.6422 15.282 10.5804 15.4492 10.5651 15.6236C10.5498 15.7981 10.5815 15.9734 10.657 16.1315L13.194 21.4425C13.2737 21.6097 13.3991 21.751 13.5557 21.8499C13.7123 21.9488 13.8938 22.0014 14.079 22.0015H14.117C14.3087 21.9941 14.4941 21.9307 14.6502 21.8191C14.8062 21.7075 14.9261 21.5526 14.995 21.3735L21.933 3.33649C22.0011 3.15918 22.0164 2.96594 21.977 2.78013C21.9376 2.59432 21.8452 2.4239 21.711 2.28949L15.43 8.56949Z" fill="#035A4B"></path>
+                                <path opacity="0.3" d="M20.664 2.06648L2.62602 9.00148C2.44768 9.07085 2.29348 9.19082 2.1824 9.34663C2.07131 9.50244 2.00818 9.68731 2.00074 9.87853C1.99331 10.0697 2.04189 10.259 2.14054 10.4229C2.23919 10.5869 2.38359 10.7185 2.55601 10.8015L7.86601 13.3365C8.02383 13.4126 8.19925 13.4448 8.37382 13.4297C8.54839 13.4145 8.71565 13.3526 8.85801 13.2505L15.43 8.56548L21.711 2.28448C21.5762 2.15096 21.4055 2.05932 21.2198 2.02064C21.034 1.98196 20.8409 1.99788 20.664 2.06648V2.06648Z" fill="#035A4B"></path>
+                            </svg>
+
+                        </div>
+
+
+
+                        <div class="">
+                            <p class="fw-bold mb-0">Submit your documents</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 mb-4 mb-lg-0 up ">
+                    <div class="text-center position-relative service-work-control">
+                        <div class="svg-icon d-inline-block border border-1 rounded-circle p-3 mb-3 service-svg me-4">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.3" d="M4.875 20.75C4.63542 20.75 4.39583 20.6542 4.20417 20.4625L2.2875 18.5458C1.90417 18.1625 1.90417 17.5875 2.2875 17.2042C2.67083 16.8208 3.29375 16.8208 3.62917 17.2042L4.875 18.45L8.0375 15.2875C8.42083 14.9042 8.99583 14.9042 9.37917 15.2875C9.7625 15.6708 9.7625 16.2458 9.37917 16.6292L5.54583 20.4625C5.35417 20.6542 5.11458 20.75 4.875 20.75Z" fill="#035A4B"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5 3C3.34315 3 2 4.34315 2 6V11.865C3.04486 11.3127 4.23591 11 5.5 11C9.47412 11 12.7263 14.091 12.9836 18H18.0249L20.3178 20.2929C20.9478 20.9229 22.0249 20.4767 22.0249 19.5858V15L22 15.0098L22 15V6C22 4.34315 20.6569 3 19 3H5ZM6 7C5.44772 7 5 7.44772 5 8C5 8.55228 5.44771 9 6 9H15C15.5523 9 16 8.55228 16 8C16 7.44772 15.5523 7 15 7H6Z" fill="#035A4B"></path>
+                            </svg>
+
+                        </div>
+
+                        <div class="">
+                            <p class="fw-bold mb-0">Sign your company documents</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 mb-4 mb-lg-0 up ">
+                    <div class="text-center position-relative service-work-control">
+                        <div class="svg-icon d-inline-block border border-1 rounded-circle p-3 mb-3 service-svg me-4">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.1671 18.1421C22.4827 18.4577 23.0222 18.2331 23.0206 17.7868L23.0039 13.1053V5.52632C23.0039 4.13107 21.8729 3 20.4776 3H8.68815C7.2929 3 6.16183 4.13107 6.16183 5.52632V9H13C14.6568 9 16 10.3431 16 12V15.6316H19.6565L22.1671 18.1421Z" fill="#035A4B"></path>
+                                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z" fill="#035A4B"></path>
+                            </svg>
+
+                        </div>
+
+                        <div class="">
+                            <p class="fw-bold mb-0">Your company is reviewed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 up">
+                    <div class="text-center position-relative service-work-control">
+                        <div class="svg-icon d-inline-block border border-1 rounded-circle p-3 mb-3 service-svg me-4">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.3" d="M6 22H4V3C4 2.4 4.4 2 5 2C5.6 2 6 2.4 6 3V22Z" fill="#035A4B"></path>
+                                <path d="M18 14H4V4H18C18.8 4 19.2 4.9 18.7 5.5L16 9L18.8 12.5C19.3 13.1 18.8 14 18 14Z" fill="#035A4B"></path>
+                            </svg>
+
+                        </div>
+
+                        <div class="">
+                            <p class="fw-bold mb-0">Your company is ready</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center py-sm-0 py-md-5 overflow-hidden ">
+                <div class="position-relative service" style="z-index: -1">
+                    <div class=" phone-3d phone d-none d-md-none d-lg-block left">
+                        <div class="phone-frame p-1">
+                            <img src="./img/phone3.jpg" alt="">
+
+                        </div>
+                    </div>
+
+                    <div class="browser right">
+
+                        <div class="browser-frame bg-white ">
+                            <div class="browser-header d-flex">
+                                <div class="d-flex p-2 ms-3">
+                                    <div class="circle me-1"></div>
+                                    <div class="circle me-1"></div>
+                                    <div class="circle me-1"></div>
+
+                                </div>
+
+                                <div class="browser-url">
+                                    www.htmlstream.com/space/
+                                </div>
+                            </div>
+                            <img src="./img/pc3.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="service-shape-1 overflow-hidden d-none " style="z-index: 2">
+            <svg width="3000" height="500" viewBox="0 0 3000 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 500H3000V0L0 500Z" fill="#fff"></path>
+            </svg>
+        </div>
+
+
+        <div class="container content-space-1 content-space-md ">
+
+            <div class="d-flex align-items-start ">
+                <div class="row">
+                    <div class="col-12 col-lg-4 down">
+                        <div class="nav flex-column nav-pills me-3 mb-5 mb-lg-0 " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link active border-gray text-black-50" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Features</button>
+                            <button class="nav-link border-gray text-black-50" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Key benefits</button>
+                            <button class="nav-link border-gray text-black-50" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Less routine - more creativity</button>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-lg-8 down">
+                        <div class="tab-content" id="v-pills-tabContent ">
+                            <div class="tab-pane fade show active " id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <div class="">
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.3" d="M4.05424 15.1982C8.34524 7.76818 13.5782 3.26318 20.9282 2.01418C21.0729 1.98837 21.2216 1.99789 21.3618 2.04193C21.502 2.08597 21.6294 2.16323 21.7333 2.26712C21.8372 2.37101 21.9144 2.49846 21.9585 2.63863C22.0025 2.7788 22.012 2.92754 21.9862 3.07218C20.7372 10.4222 16.2322 15.6552 8.80224 19.9462L4.05424 15.1982ZM3.81924 17.3372L2.63324 20.4482C2.58427 20.5765 2.5735 20.7163 2.6022 20.8507C2.63091 20.9851 2.69788 21.1082 2.79503 21.2054C2.89218 21.3025 3.01536 21.3695 3.14972 21.3982C3.28408 21.4269 3.42387 21.4161 3.55224 21.3672L6.66524 20.1802L3.81924 17.3372ZM16.5002 5.99818C16.2036 5.99818 15.9136 6.08615 15.6669 6.25097C15.4202 6.41579 15.228 6.65006 15.1144 6.92415C15.0009 7.19824 14.9712 7.49984 15.0291 7.79081C15.0869 8.08178 15.2298 8.34906 15.4396 8.55884C15.6494 8.76862 15.9166 8.91148 16.2076 8.96935C16.4986 9.02723 16.8002 8.99753 17.0743 8.884C17.3484 8.77046 17.5826 8.5782 17.7474 8.33153C17.9123 8.08486 18.0002 7.79485 18.0002 7.49818C18.0002 7.10035 17.8422 6.71882 17.5609 6.43752C17.2796 6.15621 16.8981 5.99818 16.5002 5.99818Z" fill="#035A4B"></path>
+                                                    <path d="M4.05423 15.1982L2.24723 13.3912C2.15505 13.299 2.08547 13.1867 2.04395 13.0632C2.00243 12.9396 1.9901 12.8081 2.00793 12.679C2.02575 12.5498 2.07325 12.4266 2.14669 12.3189C2.22013 12.2112 2.31752 12.1219 2.43123 12.0582L9.15323 8.28918C7.17353 10.3717 5.4607 12.6926 4.05423 15.1982V15.1982ZM8.80023 19.9442L10.6072 21.7512C10.6994 21.8434 10.8117 21.9129 10.9352 21.9545C11.0588 21.996 11.1903 22.0083 11.3195 21.9905C11.4486 21.9727 11.5718 21.9252 11.6795 21.8517C11.7872 21.7783 11.8765 21.6809 11.9402 21.5672L15.7092 14.8442C13.6269 16.8245 11.3061 18.5377 8.80023 19.9442V19.9442ZM7.04023 18.1832L12.5832 12.6402C12.7381 12.4759 12.8228 12.2577 12.8195 12.032C12.8161 11.8063 12.725 11.5907 12.5653 11.4311C12.4057 11.2714 12.1901 11.1803 11.9644 11.1769C11.7387 11.1736 11.5205 11.2583 11.3562 11.4132L5.81323 16.9562L7.04023 18.1832Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p class="">Now that we've aligned the details, it's time to get things mapped out and organized.</p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <div class="">
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.3" d="M3.20001 5.91897L16.9 3.01895C17.4 2.91895 18 3.219 18.1 3.819L19.2 9.01895L3.20001 5.91897Z" fill="#035A4B"></path>
+                                                    <path opacity="0.3" d="M13 13.9189C13 12.2189 14.3 10.9189 16 10.9189H21C21.6 10.9189 22 11.3189 22 11.9189V15.9189C22 16.5189 21.6 16.9189 21 16.9189H16C14.3 16.9189 13 15.6189 13 13.9189ZM16 12.4189C15.2 12.4189 14.5 13.1189 14.5 13.9189C14.5 14.7189 15.2 15.4189 16 15.4189C16.8 15.4189 17.5 14.7189 17.5 13.9189C17.5 13.1189 16.8 12.4189 16 12.4189Z" fill="#035A4B"></path>
+                                                    <path d="M13 13.9189C13 12.2189 14.3 10.9189 16 10.9189H21V7.91895C21 6.81895 20.1 5.91895 19 5.91895H3C2.4 5.91895 2 6.31895 2 6.91895V20.9189C2 21.5189 2.4 21.9189 3 21.9189H19C20.1 21.9189 21 21.0189 21 19.9189V16.9189H16C14.3 16.9189 13 15.6189 13 13.9189Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                Now that we've aligned the details, it's time to get things mapped out and organized.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+                                        <div class="">
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13 5.91517C15.8 6.41517 18 8.81519 18 11.8152C18 12.5152 17.9 13.2152 17.6 13.9152L20.1 15.3152C20.6 15.6152 21.4 15.4152 21.6 14.8152C21.9 13.9152 22.1 12.9152 22.1 11.8152C22.1 7.01519 18.8 3.11521 14.3 2.01521C13.7 1.91521 13.1 2.31521 13.1 3.01521V5.91517H13Z" fill="#035A4B"></path>
+                                                    <path opacity="0.3" d="M19.1 17.0152C19.7 17.3152 19.8 18.1152 19.3 18.5152C17.5 20.5152 14.9 21.7152 12 21.7152C9.1 21.7152 6.50001 20.5152 4.70001 18.5152C4.30001 18.0152 4.39999 17.3152 4.89999 17.0152L7.39999 15.6152C8.49999 16.9152 10.2 17.8152 12 17.8152C13.8 17.8152 15.5 17.0152 16.6 15.6152L19.1 17.0152ZM6.39999 13.9151C6.19999 13.2151 6 12.5152 6 11.8152C6 8.81517 8.2 6.41515 11 5.91515V3.01519C11 2.41519 10.4 1.91519 9.79999 2.01519C5.29999 3.01519 2 7.01517 2 11.8152C2 12.8152 2.2 13.8152 2.5 14.8152C2.7 15.4152 3.4 15.7152 4 15.3152L6.39999 13.9151Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6  ">
+                                        <div class="">
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 21C6 21.6 6.4 22 7 22H17C17.6 22 18 21.6 18 21V20H6V21Z" fill="#035A4B"></path>
+                                                    <path opacity="0.3" d="M17 2H7C6.4 2 6 2.4 6 3V20H18V3C18 2.4 17.6 2 17 2Z" fill="#035A4B"></path>
+                                                    <path d="M12 4C11.4 4 11 3.6 11 3V2H13V3C13 3.6 12.6 4 12 4Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                We strive to embrace and drive change in our industry which allows us to keep our clients relevant.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade " id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.3" d="M20.859 12.596L17.736 13.596L10.388 20.944C10.2915 21.0406 10.1769 21.1172 10.0508 21.1695C9.9247 21.2218 9.78953 21.2486 9.65302 21.2486C9.5165 21.2486 9.3813 21.2218 9.25519 21.1695C9.12907 21.1172 9.01449 21.0406 8.918 20.944L2.29999 14.3229C2.10543 14.1278 1.99619 13.8635 1.99619 13.588C1.99619 13.3124 2.10543 13.0481 2.29999 12.853L11.853 3.29999C11.9495 3.20341 12.0641 3.12679 12.1902 3.07452C12.3163 3.02225 12.4515 2.9953 12.588 2.9953C12.7245 2.9953 12.8597 3.02225 12.9858 3.07452C13.1119 3.12679 13.2265 3.20341 13.323 3.29999L21.199 11.176C21.3036 11.2791 21.3797 11.4075 21.4201 11.5486C21.4605 11.6898 21.4637 11.8391 21.4295 11.9819C21.3953 12.1247 21.3249 12.2562 21.2249 12.3638C21.125 12.4714 20.9989 12.5514 20.859 12.596V12.596Z" fill="#035A4B"></path>
+                                                    <path d="M14.8 10.184C14.7447 10.1843 14.6895 10.1796 14.635 10.1699L5.816 8.69997C5.55436 8.65634 5.32077 8.51055 5.16661 8.29469C5.01246 8.07884 4.95035 7.8106 4.99397 7.54897C5.0376 7.28733 5.18339 7.05371 5.39925 6.89955C5.6151 6.7454 5.88334 6.68332 6.14498 6.72694L14.963 8.19692C15.2112 8.23733 15.435 8.36982 15.59 8.56789C15.7449 8.76596 15.8195 9.01502 15.7989 9.26564C15.7784 9.51626 15.6642 9.75001 15.479 9.92018C15.2939 10.0904 15.0514 10.1846 14.8 10.184V10.184ZM17 18.6229C17 19.0281 17.0985 19.4272 17.287 19.7859C17.4755 20.1446 17.7484 20.4521 18.0821 20.6819C18.4158 20.9117 18.8004 21.0571 19.2027 21.1052C19.605 21.1534 20.0131 21.103 20.3916 20.9585C20.7702 20.814 21.1079 20.5797 21.3758 20.2757C21.6437 19.9716 21.8336 19.607 21.9293 19.2133C22.025 18.8195 22.0235 18.4085 21.925 18.0154C21.8266 17.6223 21.634 17.259 21.364 16.9569L19.843 15.257C19.7999 15.2085 19.7471 15.1697 19.688 15.1432C19.6289 15.1167 19.5648 15.1029 19.5 15.1029C19.4352 15.1029 19.3711 15.1167 19.312 15.1432C19.2529 15.1697 19.2001 15.2085 19.157 15.257L17.636 16.9569C17.2254 17.4146 16.9988 18.0081 17 18.6229V18.6229ZM10.388 20.9409L17.736 13.5929H1.99999C1.99921 13.7291 2.02532 13.8643 2.0768 13.9904C2.12828 14.1165 2.2041 14.2311 2.29997 14.3279L8.91399 20.9409C9.01055 21.0381 9.12539 21.1152 9.25188 21.1679C9.37836 21.2205 9.51399 21.2476 9.65099 21.2476C9.78798 21.2476 9.92361 21.2205 10.0501 21.1679C10.1766 21.1152 10.2914 21.0381 10.388 20.9409V20.9409Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p class="">Now that we've aligned the details, it's time to get things mapped out and organized.</p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.3" d="M8 8C8 7.4 8.4 7 9 7H16V3C16 2.4 15.6 2 15 2H3C2.4 2 2 2.4 2 3V13C2 13.6 2.4 14 3 14H5V16.1C5 16.8 5.79999 17.1 6.29999 16.6L8 14.9V8Z" fill="#035A4B"></path>
+                                                    <path d="M22 8V18C22 18.6 21.6 19 21 19H19V21.1C19 21.8 18.2 22.1 17.7 21.6L15 18.9H9C8.4 18.9 8 18.5 8 17.9V7.90002C8 7.30002 8.4 6.90002 9 6.90002H21C21.6 7.00002 22 7.4 22 8ZM19 11C19 10.4 18.6 10 18 10H12C11.4 10 11 10.4 11 11C11 11.6 11.4 12 12 12H18C18.6 12 19 11.6 19 11ZM17 15C17 14.4 16.6 14 16 14H12C11.4 14 11 14.4 11 15C11 15.6 11.4 16 12 16H16C16.6 16 17 15.6 17 15Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                Now that we've aligned the details, it's time to get things mapped out and organized.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.3" d="M21 10.7192H3C2.4 10.7192 2 11.1192 2 11.7192C2 12.3192 2.4 12.7192 3 12.7192H6V14.7192C6 18.0192 8.7 20.7192 12 20.7192C15.3 20.7192 18 18.0192 18 14.7192V12.7192H21C21.6 12.7192 22 12.3192 22 11.7192C22 11.1192 21.6 10.7192 21 10.7192Z" fill="#035A4B"></path>
+                                                    <path d="M11.6 21.9192C11.4 21.9192 11.2 21.8192 11 21.7192C10.6 21.4192 10.5 20.7191 10.8 20.3191C11.7 19.1191 12.3 17.8191 12.7 16.3191C12.8 15.8191 13.4 15.4192 13.9 15.6192C14.4 15.7192 14.8 16.3191 14.6 16.8191C14.2 18.5191 13.4 20.1192 12.4 21.5192C12.2 21.7192 11.9 21.9192 11.6 21.9192ZM8.7 19.7192C10.2 18.1192 11 15.9192 11 13.7192V8.71917C11 8.11917 11.4 7.71917 12 7.71917C12.6 7.71917 13 8.11917 13 8.71917V13.0192C13 13.6192 13.4 14.0192 14 14.0192C14.6 14.0192 15 13.6192 15 13.0192V8.71917C15 7.01917 13.7 5.71917 12 5.71917C10.3 5.71917 9 7.01917 9 8.71917V13.7192C9 15.4192 8.4 17.1191 7.2 18.3191C6.8 18.7191 6.9 19.3192 7.3 19.7192C7.5 19.9192 7.7 20.0192 8 20.0192C8.3 20.0192 8.5 19.9192 8.7 19.7192ZM6 16.7192C6.5 16.7192 7 16.2192 7 15.7192V8.71917C7 8.11917 7.1 7.51918 7.3 6.91918C7.5 6.41918 7.2 5.8192 6.7 5.6192C6.2 5.4192 5.59999 5.71917 5.39999 6.21917C5.09999 7.01917 5 7.81917 5 8.71917V15.7192V15.8191C5 16.3191 5.5 16.7192 6 16.7192ZM9 4.71917C9.5 4.31917 10.1 4.11918 10.7 3.91918C11.2 3.81918 11.5 3.21917 11.4 2.71917C11.3 2.21917 10.7 1.91916 10.2 2.01916C9.4 2.21916 8.59999 2.6192 7.89999 3.1192C7.49999 3.4192 7.4 4.11916 7.7 4.51916C7.9 4.81916 8.2 4.91918 8.5 4.91918C8.6 4.91918 8.8 4.81917 9 4.71917ZM18.2 18.9192C18.7 17.2192 19 15.5192 19 13.7192V8.71917C19 5.71917 17.1 3.1192 14.3 2.1192C13.8 1.9192 13.2 2.21917 13 2.71917C12.8 3.21917 13.1 3.81916 13.6 4.01916C15.6 4.71916 17 6.61917 17 8.71917V13.7192C17 15.3192 16.8 16.8191 16.3 18.3191C16.1 18.8191 16.4 19.4192 16.9 19.6192C17 19.6192 17.1 19.6192 17.2 19.6192C17.7 19.6192 18 19.3192 18.2 18.9192Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6  ">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.3" d="M9.4 8.79999L16.6 14H20V12L16 11L9 4L5 6V9.90002L9.4 8.79999Z" fill="#035A4B"></path>
+                                                    <path d="M21 18H20V16H16L9 11L6 11.8V3C6 2.4 5.6 2 5 2C4.4 2 4 2.4 4 3V18H3C2.4 18 2 18.4 2 19C2 19.6 2.4 20 3 20H4V21C4 21.6 4.4 22 5 22C5.6 22 6 21.6 6 21V20H21C21.6 20 22 19.6 22 19C22 18.4 21.6 18 21 18Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                We strive to embrace and drive change in our industry which allows us to keep our clients relevant.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade " id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.3" d="M4.05424 15.1982C8.34524 7.76818 13.5782 3.26318 20.9282 2.01418C21.0729 1.98837 21.2216 1.99789 21.3618 2.04193C21.502 2.08597 21.6294 2.16323 21.7333 2.26712C21.8372 2.37101 21.9144 2.49846 21.9585 2.63863C22.0025 2.7788 22.012 2.92754 21.9862 3.07218C20.7372 10.4222 16.2322 15.6552 8.80224 19.9462L4.05424 15.1982ZM3.81924 17.3372L2.63324 20.4482C2.58427 20.5765 2.5735 20.7163 2.6022 20.8507C2.63091 20.9851 2.69788 21.1082 2.79503 21.2054C2.89218 21.3025 3.01536 21.3695 3.14972 21.3982C3.28408 21.4269 3.42387 21.4161 3.55224 21.3672L6.66524 20.1802L3.81924 17.3372ZM16.5002 5.99818C16.2036 5.99818 15.9136 6.08615 15.6669 6.25097C15.4202 6.41579 15.228 6.65006 15.1144 6.92415C15.0009 7.19824 14.9712 7.49984 15.0291 7.79081C15.0869 8.08178 15.2298 8.34906 15.4396 8.55884C15.6494 8.76862 15.9166 8.91148 16.2076 8.96935C16.4986 9.02723 16.8002 8.99753 17.0743 8.884C17.3484 8.77046 17.5826 8.5782 17.7474 8.33153C17.9123 8.08486 18.0002 7.79485 18.0002 7.49818C18.0002 7.10035 17.8422 6.71882 17.5609 6.43752C17.2796 6.15621 16.8981 5.99818 16.5002 5.99818Z" fill="#035A4B"></path>
+                                                    <path d="M4.05423 15.1982L2.24723 13.3912C2.15505 13.299 2.08547 13.1867 2.04395 13.0632C2.00243 12.9396 1.9901 12.8081 2.00793 12.679C2.02575 12.5498 2.07325 12.4266 2.14669 12.3189C2.22013 12.2112 2.31752 12.1219 2.43123 12.0582L9.15323 8.28918C7.17353 10.3717 5.4607 12.6926 4.05423 15.1982V15.1982ZM8.80023 19.9442L10.6072 21.7512C10.6994 21.8434 10.8117 21.9129 10.9352 21.9545C11.0588 21.996 11.1903 22.0083 11.3195 21.9905C11.4486 21.9727 11.5718 21.9252 11.6795 21.8517C11.7872 21.7783 11.8765 21.6809 11.9402 21.5672L15.7092 14.8442C13.6269 16.8245 11.3061 18.5377 8.80023 19.9442V19.9442ZM7.04023 18.1832L12.5832 12.6402C12.7381 12.4759 12.8228 12.2577 12.8195 12.032C12.8161 11.8063 12.725 11.5907 12.5653 11.4311C12.4057 11.2714 12.1901 11.1803 11.9644 11.1769C11.7387 11.1736 11.5205 11.2583 11.3562 11.4132L5.81323 16.9562L7.04023 18.1832Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p class="">Now that we've aligned the details, it's time to get things mapped out and organized.</p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.3" d="M3.20001 5.91897L16.9 3.01895C17.4 2.91895 18 3.219 18.1 3.819L19.2 9.01895L3.20001 5.91897Z" fill="#035A4B"></path>
+                                                    <path opacity="0.3" d="M13 13.9189C13 12.2189 14.3 10.9189 16 10.9189H21C21.6 10.9189 22 11.3189 22 11.9189V15.9189C22 16.5189 21.6 16.9189 21 16.9189H16C14.3 16.9189 13 15.6189 13 13.9189ZM16 12.4189C15.2 12.4189 14.5 13.1189 14.5 13.9189C14.5 14.7189 15.2 15.4189 16 15.4189C16.8 15.4189 17.5 14.7189 17.5 13.9189C17.5 13.1189 16.8 12.4189 16 12.4189Z" fill="#035A4B"></path>
+                                                    <path d="M13 13.9189C13 12.2189 14.3 10.9189 16 10.9189H21V7.91895C21 6.81895 20.1 5.91895 19 5.91895H3C2.4 5.91895 2 6.31895 2 6.91895V20.9189C2 21.5189 2.4 21.9189 3 21.9189H19C20.1 21.9189 21 21.0189 21 19.9189V16.9189H16C14.3 16.9189 13 15.6189 13 13.9189Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                Now that we've aligned the details, it's time to get things mapped out and organized.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13 5.91517C15.8 6.41517 18 8.81519 18 11.8152C18 12.5152 17.9 13.2152 17.6 13.9152L20.1 15.3152C20.6 15.6152 21.4 15.4152 21.6 14.8152C21.9 13.9152 22.1 12.9152 22.1 11.8152C22.1 7.01519 18.8 3.11521 14.3 2.01521C13.7 1.91521 13.1 2.31521 13.1 3.01521V5.91517H13Z" fill="#035A4B"></path>
+                                                    <path opacity="0.3" d="M19.1 17.0152C19.7 17.3152 19.8 18.1152 19.3 18.5152C17.5 20.5152 14.9 21.7152 12 21.7152C9.1 21.7152 6.50001 20.5152 4.70001 18.5152C4.30001 18.0152 4.39999 17.3152 4.89999 17.0152L7.39999 15.6152C8.49999 16.9152 10.2 17.8152 12 17.8152C13.8 17.8152 15.5 17.0152 16.6 15.6152L19.1 17.0152ZM6.39999 13.9151C6.19999 13.2151 6 12.5152 6 11.8152C6 8.81517 8.2 6.41515 11 5.91515V3.01519C11 2.41519 10.4 1.91519 9.79999 2.01519C5.29999 3.01519 2 7.01517 2 11.8152C2 12.8152 2.2 13.8152 2.5 14.8152C2.7 15.4152 3.4 15.7152 4 15.3152L6.39999 13.9151Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6  ">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 21C6 21.6 6.4 22 7 22H17C17.6 22 18 21.6 18 21V20H6V21Z" fill="#035A4B"></path>
+                                                    <path opacity="0.3" d="M17 2H7C6.4 2 6 2.4 6 3V20H18V3C18 2.4 17.6 2 17 2Z" fill="#035A4B"></path>
+                                                    <path d="M12 4C11.4 4 11 3.6 11 3V2H13V3C13 3.6 12.6 4 12 4Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                We strive to embrace and drive change in our industry which allows us to keep our clients relevant.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade " id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.3" d="M4.05424 15.1982C8.34524 7.76818 13.5782 3.26318 20.9282 2.01418C21.0729 1.98837 21.2216 1.99789 21.3618 2.04193C21.502 2.08597 21.6294 2.16323 21.7333 2.26712C21.8372 2.37101 21.9144 2.49846 21.9585 2.63863C22.0025 2.7788 22.012 2.92754 21.9862 3.07218C20.7372 10.4222 16.2322 15.6552 8.80224 19.9462L4.05424 15.1982ZM3.81924 17.3372L2.63324 20.4482C2.58427 20.5765 2.5735 20.7163 2.6022 20.8507C2.63091 20.9851 2.69788 21.1082 2.79503 21.2054C2.89218 21.3025 3.01536 21.3695 3.14972 21.3982C3.28408 21.4269 3.42387 21.4161 3.55224 21.3672L6.66524 20.1802L3.81924 17.3372ZM16.5002 5.99818C16.2036 5.99818 15.9136 6.08615 15.6669 6.25097C15.4202 6.41579 15.228 6.65006 15.1144 6.92415C15.0009 7.19824 14.9712 7.49984 15.0291 7.79081C15.0869 8.08178 15.2298 8.34906 15.4396 8.55884C15.6494 8.76862 15.9166 8.91148 16.2076 8.96935C16.4986 9.02723 16.8002 8.99753 17.0743 8.884C17.3484 8.77046 17.5826 8.5782 17.7474 8.33153C17.9123 8.08486 18.0002 7.79485 18.0002 7.49818C18.0002 7.10035 17.8422 6.71882 17.5609 6.43752C17.2796 6.15621 16.8981 5.99818 16.5002 5.99818Z" fill="#035A4B"></path>
+                                                    <path d="M4.05423 15.1982L2.24723 13.3912C2.15505 13.299 2.08547 13.1867 2.04395 13.0632C2.00243 12.9396 1.9901 12.8081 2.00793 12.679C2.02575 12.5498 2.07325 12.4266 2.14669 12.3189C2.22013 12.2112 2.31752 12.1219 2.43123 12.0582L9.15323 8.28918C7.17353 10.3717 5.4607 12.6926 4.05423 15.1982V15.1982ZM8.80023 19.9442L10.6072 21.7512C10.6994 21.8434 10.8117 21.9129 10.9352 21.9545C11.0588 21.996 11.1903 22.0083 11.3195 21.9905C11.4486 21.9727 11.5718 21.9252 11.6795 21.8517C11.7872 21.7783 11.8765 21.6809 11.9402 21.5672L15.7092 14.8442C13.6269 16.8245 11.3061 18.5377 8.80023 19.9442V19.9442ZM7.04023 18.1832L12.5832 12.6402C12.7381 12.4759 12.8228 12.2577 12.8195 12.032C12.8161 11.8063 12.725 11.5907 12.5653 11.4311C12.4057 11.2714 12.1901 11.1803 11.9644 11.1769C11.7387 11.1736 11.5205 11.2583 11.3562 11.4132L5.81323 16.9562L7.04023 18.1832Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p class="">Now that we've aligned the details, it's time to get things mapped out and organized.</p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.3" d="M3.20001 5.91897L16.9 3.01895C17.4 2.91895 18 3.219 18.1 3.819L19.2 9.01895L3.20001 5.91897Z" fill="#035A4B"></path>
+                                                    <path opacity="0.3" d="M13 13.9189C13 12.2189 14.3 10.9189 16 10.9189H21C21.6 10.9189 22 11.3189 22 11.9189V15.9189C22 16.5189 21.6 16.9189 21 16.9189H16C14.3 16.9189 13 15.6189 13 13.9189ZM16 12.4189C15.2 12.4189 14.5 13.1189 14.5 13.9189C14.5 14.7189 15.2 15.4189 16 15.4189C16.8 15.4189 17.5 14.7189 17.5 13.9189C17.5 13.1189 16.8 12.4189 16 12.4189Z" fill="#035A4B"></path>
+                                                    <path d="M13 13.9189C13 12.2189 14.3 10.9189 16 10.9189H21V7.91895C21 6.81895 20.1 5.91895 19 5.91895H3C2.4 5.91895 2 6.31895 2 6.91895V20.9189C2 21.5189 2.4 21.9189 3 21.9189H19C20.1 21.9189 21 21.0189 21 19.9189V16.9189H16C14.3 16.9189 13 15.6189 13 13.9189Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                Now that we've aligned the details, it's time to get things mapped out and organized.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13 5.91517C15.8 6.41517 18 8.81519 18 11.8152C18 12.5152 17.9 13.2152 17.6 13.9152L20.1 15.3152C20.6 15.6152 21.4 15.4152 21.6 14.8152C21.9 13.9152 22.1 12.9152 22.1 11.8152C22.1 7.01519 18.8 3.11521 14.3 2.01521C13.7 1.91521 13.1 2.31521 13.1 3.01521V5.91517H13Z" fill="#035A4B"></path>
+                                                    <path opacity="0.3" d="M19.1 17.0152C19.7 17.3152 19.8 18.1152 19.3 18.5152C17.5 20.5152 14.9 21.7152 12 21.7152C9.1 21.7152 6.50001 20.5152 4.70001 18.5152C4.30001 18.0152 4.39999 17.3152 4.89999 17.0152L7.39999 15.6152C8.49999 16.9152 10.2 17.8152 12 17.8152C13.8 17.8152 15.5 17.0152 16.6 15.6152L19.1 17.0152ZM6.39999 13.9151C6.19999 13.2151 6 12.5152 6 11.8152C6 8.81517 8.2 6.41515 11 5.91515V3.01519C11 2.41519 10.4 1.91519 9.79999 2.01519C5.29999 3.01519 2 7.01517 2 11.8152C2 12.8152 2.2 13.8152 2.5 14.8152C2.7 15.4152 3.4 15.7152 4 15.3152L6.39999 13.9151Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6  ">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 21C6 21.6 6.4 22 7 22H17C17.6 22 18 21.6 18 21V20H6V21Z" fill="#035A4B"></path>
+                                                    <path opacity="0.3" d="M17 2H7C6.4 2 6 2.4 6 3V20H18V3C18 2.4 17.6 2 17 2Z" fill="#035A4B"></path>
+                                                    <path d="M12 4C11.4 4 11 3.6 11 3V2H13V3C13 3.6 12.6 4 12 4Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                We strive to embrace and drive change in our industry which allows us to keep our clients relevant.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade " id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.3" d="M4.05424 15.1982C8.34524 7.76818 13.5782 3.26318 20.9282 2.01418C21.0729 1.98837 21.2216 1.99789 21.3618 2.04193C21.502 2.08597 21.6294 2.16323 21.7333 2.26712C21.8372 2.37101 21.9144 2.49846 21.9585 2.63863C22.0025 2.7788 22.012 2.92754 21.9862 3.07218C20.7372 10.4222 16.2322 15.6552 8.80224 19.9462L4.05424 15.1982ZM3.81924 17.3372L2.63324 20.4482C2.58427 20.5765 2.5735 20.7163 2.6022 20.8507C2.63091 20.9851 2.69788 21.1082 2.79503 21.2054C2.89218 21.3025 3.01536 21.3695 3.14972 21.3982C3.28408 21.4269 3.42387 21.4161 3.55224 21.3672L6.66524 20.1802L3.81924 17.3372ZM16.5002 5.99818C16.2036 5.99818 15.9136 6.08615 15.6669 6.25097C15.4202 6.41579 15.228 6.65006 15.1144 6.92415C15.0009 7.19824 14.9712 7.49984 15.0291 7.79081C15.0869 8.08178 15.2298 8.34906 15.4396 8.55884C15.6494 8.76862 15.9166 8.91148 16.2076 8.96935C16.4986 9.02723 16.8002 8.99753 17.0743 8.884C17.3484 8.77046 17.5826 8.5782 17.7474 8.33153C17.9123 8.08486 18.0002 7.79485 18.0002 7.49818C18.0002 7.10035 17.8422 6.71882 17.5609 6.43752C17.2796 6.15621 16.8981 5.99818 16.5002 5.99818Z" fill="#035A4B"></path>
+                                                    <path d="M4.05423 15.1982L2.24723 13.3912C2.15505 13.299 2.08547 13.1867 2.04395 13.0632C2.00243 12.9396 1.9901 12.8081 2.00793 12.679C2.02575 12.5498 2.07325 12.4266 2.14669 12.3189C2.22013 12.2112 2.31752 12.1219 2.43123 12.0582L9.15323 8.28918C7.17353 10.3717 5.4607 12.6926 4.05423 15.1982V15.1982ZM8.80023 19.9442L10.6072 21.7512C10.6994 21.8434 10.8117 21.9129 10.9352 21.9545C11.0588 21.996 11.1903 22.0083 11.3195 21.9905C11.4486 21.9727 11.5718 21.9252 11.6795 21.8517C11.7872 21.7783 11.8765 21.6809 11.9402 21.5672L15.7092 14.8442C13.6269 16.8245 11.3061 18.5377 8.80023 19.9442V19.9442ZM7.04023 18.1832L12.5832 12.6402C12.7381 12.4759 12.8228 12.2577 12.8195 12.032C12.8161 11.8063 12.725 11.5907 12.5653 11.4311C12.4057 11.2714 12.1901 11.1803 11.9644 11.1769C11.7387 11.1736 11.5205 11.2583 11.3562 11.4132L5.81323 16.9562L7.04023 18.1832Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p class="">Now that we've aligned the details, it's time to get things mapped out and organized.</p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6 mb-5">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.3" d="M3.20001 5.91897L16.9 3.01895C17.4 2.91895 18 3.219 18.1 3.819L19.2 9.01895L3.20001 5.91897Z" fill="#035A4B"></path>
+                                                    <path opacity="0.3" d="M13 13.9189C13 12.2189 14.3 10.9189 16 10.9189H21C21.6 10.9189 22 11.3189 22 11.9189V15.9189C22 16.5189 21.6 16.9189 21 16.9189H16C14.3 16.9189 13 15.6189 13 13.9189ZM16 12.4189C15.2 12.4189 14.5 13.1189 14.5 13.9189C14.5 14.7189 15.2 15.4189 16 15.4189C16.8 15.4189 17.5 14.7189 17.5 13.9189C17.5 13.1189 16.8 12.4189 16 12.4189Z" fill="#035A4B"></path>
+                                                    <path d="M13 13.9189C13 12.2189 14.3 10.9189 16 10.9189H21V7.91895C21 6.81895 20.1 5.91895 19 5.91895H3C2.4 5.91895 2 6.31895 2 6.91895V20.9189C2 21.5189 2.4 21.9189 3 21.9189H19C20.1 21.9189 21 21.0189 21 19.9189V16.9189H16C14.3 16.9189 13 15.6189 13 13.9189Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                Now that we've aligned the details, it's time to get things mapped out and organized.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13 5.91517C15.8 6.41517 18 8.81519 18 11.8152C18 12.5152 17.9 13.2152 17.6 13.9152L20.1 15.3152C20.6 15.6152 21.4 15.4152 21.6 14.8152C21.9 13.9152 22.1 12.9152 22.1 11.8152C22.1 7.01519 18.8 3.11521 14.3 2.01521C13.7 1.91521 13.1 2.31521 13.1 3.01521V5.91517H13Z" fill="#035A4B"></path>
+                                                    <path opacity="0.3" d="M19.1 17.0152C19.7 17.3152 19.8 18.1152 19.3 18.5152C17.5 20.5152 14.9 21.7152 12 21.7152C9.1 21.7152 6.50001 20.5152 4.70001 18.5152C4.30001 18.0152 4.39999 17.3152 4.89999 17.0152L7.39999 15.6152C8.49999 16.9152 10.2 17.8152 12 17.8152C13.8 17.8152 15.5 17.0152 16.6 15.6152L19.1 17.0152ZM6.39999 13.9151C6.19999 13.2151 6 12.5152 6 11.8152C6 8.81517 8.2 6.41515 11 5.91515V3.01519C11 2.41519 10.4 1.91519 9.79999 2.01519C5.29999 3.01519 2 7.01517 2 11.8152C2 12.8152 2.2 13.8152 2.5 14.8152C2.7 15.4152 3.4 15.7152 4 15.3152L6.39999 13.9151Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6  ">
+                                        <div>
+                                            <div class="svg-icon mb-3">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 21C6 21.6 6.4 22 7 22H17C17.6 22 18 21.6 18 21V20H6V21Z" fill="#035A4B"></path>
+                                                    <path opacity="0.3" d="M17 2H7C6.4 2 6 2.4 6 3V20H18V3C18 2.4 17.6 2 17 2Z" fill="#035A4B"></path>
+                                                    <path d="M12 4C11.4 4 11 3.6 11 3V2H13V3C13 3.6 12.6 4 12 4Z" fill="#035A4B"></path>
+                                                </svg>
+                                            </div>
+                                            <p>
+                                                We strive to embrace and drive change in our industry which allows us to keep our clients relevant.
+                                            </p>
+                                            <a href="#" class="text-decoration-none fw-bold">Learn about services <span class="fas fa-angle-right"></span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="d-flex justify-content-center mx-3">
+            <div class=" down d-flex flex-wrap flex-lg-nowrap justify-content-center align-items-center bg-primary-soft-light alert-control-w p-3 rounded-3">
+
+                <div class="svg-icon flex-shrink-0 mb-4 mb-lg-0">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15 19.5229C15 20.265 15.9624 20.5564 16.374 19.9389L22.2227 11.166C22.5549 10.6676 22.1976 10 21.5986 10H17V4.47708C17 3.73503 16.0376 3.44363 15.626 4.06106L9.77735 12.834C9.44507 13.3324 9.80237 14 10.4014 14H15V19.5229Z" fill="#035A4B"></path>
+                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M3 6.5C3 5.67157 3.67157 5 4.5 5H9.5C10.3284 5 11 5.67157 11 6.5C11 7.32843 10.3284 8 9.5 8H4.5C3.67157 8 3 7.32843 3 6.5ZM3 18.5C3 17.6716 3.67157 17 4.5 17H9.5C10.3284 17 11 17.6716 11 18.5C11 19.3284 10.3284 20 9.5 20H4.5C3.67157 20 3 19.3284 3 18.5ZM2.5 11C1.67157 11 1 11.6716 1 12.5C1 13.3284 1.67157 14 2.5 14H6.5C7.32843 14 8 13.3284 8 12.5C8 11.6716 7.32843 11 6.5 11H2.5Z" fill="#035A4B"></path>
+                    </svg>
+                </div>
+                <div class="flex-grow-1 mb-4 mb-lg-0">
+                    <p class="mb-0 text-center">Empowering independent business owners everywhere</p>
+                </div>
+                <div class="flex-shrink-0 ">
+                    <button class="btn btn-lg btn-primary ">Try for free</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container content-space-1 content-space-md ">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <figure class="left">
+                        <blockquote class="blockquote fs-xl">
+                            “ Truly great template and great costumer support. Very precise documentation with many features well explained. ”
+                        </blockquote>
+
+                        <figcaption class="mb-5">
+                            <h5 class="fw-bold">Andrea</h5>
+                            <span>Director of Sales | MailChimp</span>
+                        </figcaption>
+
+                        <div>
+                            <svg  class="mailChimp" xmlns="http://www.w3.org/2000/svg" width="200" height="67" viewBox="0 0 200 67" fill="none">
+                                <path d="M192.914 45.0629C197.106 45.0629 200 42.1687 200 38.1767C200 36.1807 199.401 34.2845 198.403 32.9871C197.305 31.5899 195.709 30.7915 193.812 30.7915C191.317 30.7915 188.922 32.6877 186.627 36.6797L186.427 36.9791L186.327 36.6797C185.729 34.9831 185.23 33.5859 184.93 32.7875C184.731 32.1887 184.631 31.9891 184.631 31.8893C184.531 31.4901 184.132 31.1907 183.633 31.1907C183.333 31.1907 183.034 31.2905 182.735 31.4901C182.435 31.6897 182.236 31.8893 182.236 32.1887C179.94 39.3743 178.044 42.8673 176.447 42.8673C176.248 42.8673 176.048 42.7675 175.948 42.6677C175.549 42.1687 175.649 41.0709 175.749 39.5739C175.848 38.4761 175.948 37.1787 175.948 35.8813C175.848 33.2865 174.451 31.6897 172.156 31.6897C169.261 31.6897 167.365 34.7835 166.467 36.5799L166.168 37.0789L166.068 36.4801C165.868 34.1847 165.07 31.4901 162.675 31.4901C159.88 31.4901 157.685 34.7835 156.387 37.5779L156.088 38.2765V37.4781C156.287 33.7855 156.387 31.5899 156.487 30.9911C156.587 30.3923 156.487 29.9931 156.287 29.6937C156.088 29.4941 155.788 29.3943 155.19 29.3943C154.291 29.4941 153.792 29.9931 153.094 31.7895C151.996 34.7835 149.102 41.8693 146.707 41.8693C146.208 41.8693 145.908 41.6697 145.609 41.3703C144.611 40.2725 145.01 37.2785 145.609 33.0869V32.7875C145.908 30.7915 145.409 30.3923 144.311 30.1927C144.212 30.1927 144.112 30.1927 144.012 30.1927C143.114 30.1927 142.715 30.9911 141.916 33.2865C140.519 37.3783 138.623 41.5699 136.527 41.5699C136.427 41.5699 136.327 41.5699 136.327 41.5699C135.23 41.3703 135.23 39.6737 135.23 37.5779C135.23 36.3803 135.23 35.0829 135.13 33.9851C134.83 31.8893 133.533 30.5919 131.836 30.4921C128.443 30.4921 126.248 34.7835 125.15 37.3783L124.95 37.9771L124.85 37.3783C124.651 35.6817 124.551 34.0849 124.451 32.3883V32.2885C130.739 24.4043 133.533 18.6158 133.633 13.7256C133.633 10.6318 132.236 8.7356 129.741 8.7356C127.944 8.7356 123.752 10.2326 122.255 24.0051C121.956 26.5999 121.856 29.1947 121.856 31.7895C118.962 35.9811 112.774 43.1667 106.786 43.1667C101.297 43.1667 97.006 38.7755 97.006 30.9911C97.006 20.6118 104.391 14.2246 109.88 14.2246C111.078 14.2246 112.076 14.524 112.874 15.2226C113.673 15.9212 114.072 16.8194 114.072 17.8174C114.072 19.2146 113.573 20.013 113.174 20.7116C113.074 20.9112 112.974 21.1108 112.874 21.3104C112.774 21.51 112.675 21.8094 112.774 22.009C112.874 22.3084 113.273 22.4083 113.772 22.4083C115.07 22.4083 117.066 20.512 117.066 17.6178C117.066 14.6238 114.571 11.53 109.98 11.53C103.094 11.53 93.9122 19.015 93.9122 31.2905C93.9122 39.8733 99.3014 45.8613 106.687 45.8613C111.876 45.8613 117.066 42.1687 121.557 35.8813L121.856 35.4821V35.9811C121.956 38.2765 122.156 40.0729 122.255 41.3703C122.355 42.1687 122.355 42.8673 122.355 43.1667C122.355 43.8653 122.455 44.4641 122.754 44.7635C123.054 45.0629 123.453 45.2625 124.052 45.2625C125.05 45.2625 125.25 44.5639 125.649 42.8673L125.749 42.3683C126.248 40.2725 128.144 33.4861 130.938 33.4861C131.437 33.4861 131.737 33.5859 132.036 33.8853C132.635 34.5839 132.535 35.8813 132.535 37.4781C132.535 38.4761 132.435 39.4741 132.535 40.4721C132.834 43.0669 133.932 44.3643 136.028 44.4641C138.124 44.4641 140.419 42.1687 141.617 40.0729L141.816 39.6737L141.916 40.1727C142.116 41.2705 143.114 45.0629 146.108 45.0629C148.902 45.0629 151.198 42.1687 153.792 36.1807L154.092 35.3823V36.2805C153.992 38.5759 153.892 41.2705 153.892 43.4661C153.892 45.1627 154.092 45.7615 154.79 45.7615H154.99C155.689 45.7615 156.188 45.3623 156.487 44.4641C158.483 37.6777 160.08 34.4841 161.776 34.4841C163.373 34.4841 163.573 37.4781 163.673 42.7675V43.1667C163.673 44.9631 163.772 45.8613 164.97 45.8613C165.868 45.8613 166.068 45.1627 166.467 43.4661C166.567 43.1667 166.667 42.7675 166.766 42.3683C168.363 36.8793 169.661 34.6837 171.257 34.6837C172.655 34.6837 172.755 36.0809 172.755 36.5799C172.854 37.5779 172.754 38.6757 172.555 39.6737C172.455 40.6717 172.355 41.5699 172.355 42.5679C172.455 44.6637 173.653 45.8613 175.649 45.9611C178.343 45.9611 180.639 42.8673 182.735 36.7795L182.834 36.3803L183.034 36.7795C183.433 37.7775 183.932 39.0749 184.331 40.5719V40.6717V40.7715C182.335 45.2625 180.838 50.2526 180.838 52.9472C180.838 56.4402 182.435 58.7356 184.93 58.8354C186.327 58.8354 189.421 58.3364 189.521 53.2466C189.521 51.1508 189.022 48.2566 188.024 44.5639L187.924 44.1647L188.323 44.3643C190.02 44.5639 191.517 45.0629 192.914 45.0629ZM124.651 27.8973C124.751 26.5999 124.85 25.4023 124.95 24.2047C125.948 16.7196 127.944 11.4302 129.94 11.4302C130.838 11.4302 131.337 12.1288 131.337 13.526C131.337 16.9192 129.142 21.8094 124.95 27.9971L124.651 28.4961V27.8973ZM186.826 54.9432C186.527 55.3424 186.128 55.542 185.529 55.542C184.93 55.542 184.431 55.3424 184.132 54.9432C183.234 53.7456 183.533 50.9512 184.93 45.8613C185.13 45.2625 185.329 44.6637 185.529 44.0649L185.729 43.5659L185.828 44.0649C187.525 49.8534 187.924 53.546 186.826 54.9432ZM187.425 39.8733L187.325 39.5739V39.4741C189.222 35.4821 191.517 33.1867 193.413 33.1867C195.609 33.1867 197.106 35.1827 197.106 37.9771C197.106 39.8733 196.307 40.8713 195.609 41.4701C194.81 42.1687 193.812 42.4681 192.715 42.4681C190.12 42.5679 188.423 41.1707 187.425 39.8733ZM64.2715 44.3643C67.2655 44.1647 69.6607 40.0729 70.4591 38.3763L70.6587 37.8773L70.7585 38.3763C71.1577 40.7715 72.5549 44.8633 76.6467 44.9631C78.4431 44.9631 80.4391 43.8653 82.5349 41.7695L82.7345 41.5699L82.8343 41.7695C84.2315 44.0649 86.0279 45.3623 88.0239 45.1627C90.9182 44.9631 92.7146 42.9671 92.8144 41.5699C92.8144 41.1707 92.7146 40.8713 92.515 40.6717C92.2156 40.3723 91.9162 40.3723 91.6168 40.5719L91.517 40.6717C90.8184 41.3703 89.6208 42.5679 88.2236 42.5679C86.5269 42.6677 85.3293 41.6697 84.5309 39.5739V39.4741L84.6307 39.3743C89.2216 33.2865 92.515 24.1049 92.2156 17.9172C92.1158 15.023 91.2176 11.6298 88.1238 11.6298H87.8244C86.6267 11.7296 85.5289 12.2286 84.6307 13.3264C81.7365 16.6198 80.2395 24.6039 80.7385 33.6857C80.8383 35.5819 81.1377 37.3783 81.7365 38.9751V39.0749L81.6367 39.1747C79.9401 41.1707 78.2435 42.2685 76.8463 42.2685C73.5529 42.2685 73.6527 36.7795 73.9521 32.1887C74.0519 31.1907 74.0519 30.5919 73.7525 30.1927C73.5529 29.8933 73.1537 29.7935 72.6547 29.7935H72.5549C71.3573 29.7935 71.1577 29.9931 70.5589 31.7895C69.3613 35.3823 66.8663 41.3703 64.3713 41.3703C63.6727 41.3703 63.1737 41.1707 62.7745 40.6717C61.5769 39.1747 62.4751 35.3823 63.1737 32.2885C63.2735 31.7895 63.4731 31.1907 63.5729 30.6917C63.7725 29.9931 63.6727 29.3943 63.4731 29.0949C63.1737 28.7955 62.6747 28.5959 62.0759 28.6957C60.978 28.7955 60.3792 29.1947 59.98 31.1907L59.8802 31.5899V31.6897C59.3812 30.9911 58.483 30.1927 56.8862 30.1927C56.7864 30.1927 56.5868 30.1927 56.3872 30.1927C54.5908 30.2925 52.5948 31.5899 51.0978 33.3863C49.4012 35.5819 48.503 38.2765 48.8024 41.0709C48.8024 41.1707 48.8024 41.3703 48.9022 41.4701V41.5699L48.8024 41.6697C47.8044 42.7675 46.7066 43.3663 45.7086 43.3663C44.1118 43.3663 43.2136 42.1687 43.2136 40.1727C43.2136 36.7795 45.509 26.6997 45.509 23.0071C45.509 19.1148 43.8124 17.019 40.7186 16.9192C36.3273 16.9192 32.8343 21.9092 29.5409 32.1887C29.2415 33.1867 28.9421 34.1847 28.6427 35.1827L28.1437 36.7795L28.2435 35.1827C28.5429 31.6897 28.7425 28.2965 28.8423 24.8035C29.0419 19.8134 28.3433 16.6198 26.7465 15.023C25.9481 14.1248 24.8503 13.7256 23.3533 13.7256C17.9641 13.7256 15.3693 22.8075 13.4731 29.2945C12.8743 31.1907 11.7764 35.5819 11.0778 38.5759L11.477 37.8773C11.7764 34.0849 12.7745 24.7037 12.6747 19.6138C12.5749 14.1248 10.7784 11.6298 6.78643 11.6298C4.59082 11.6298 3.19361 12.7276 2.29541 13.6258C0.798403 14.9232 0 17.019 0 18.8154C0 19.9132 0.698603 20.9112 1.1976 20.9112C1.49701 20.9112 1.69661 20.4122 1.79641 20.2126C3.09381 16.1208 4.69062 14.1248 6.68663 14.1248C7.58483 14.1248 8.18363 14.4242 8.68263 14.9232C10.2794 16.6198 9.98004 21.3104 9.48104 29.8933C9.38124 32.4881 9.18164 35.6817 8.98204 39.1747C8.98204 39.7735 8.88224 40.3723 8.88224 40.9711C8.68263 43.4661 8.58283 45.3623 9.48104 45.4621C10.6786 45.6617 11.477 45.1627 11.8762 43.9651C12.475 42.1687 13.7725 37.2785 16.3673 28.3963C18.8623 19.9132 20.7585 16.7196 23.1537 16.7196C25.9481 16.7196 26.1477 21.51 25.6487 31.5899C25.5489 33.6857 25.3493 36.1807 25.2495 38.7755C25.2495 39.1747 25.2495 39.4741 25.2495 39.8733C25.1497 42.0689 25.0499 43.7655 25.6487 44.4641C25.8483 44.6637 26.1477 44.7635 26.4471 44.7635C27.6447 44.7635 28.0439 43.6657 28.6427 41.9691C28.7425 41.6697 28.8423 41.3703 28.9421 40.9711C33.0339 29.5939 36.1277 19.7136 40.2196 19.7136C41.4172 19.7136 42.4152 20.7116 42.4152 22.7077C42.4152 27.1987 40.2196 35.8813 40.2196 40.2725C40.2196 41.8693 40.7186 43.2665 41.517 44.2645C42.4152 45.2625 43.6128 45.8613 45.1098 45.8613C46.507 45.8613 47.9042 45.1627 49.4012 43.8653L49.501 43.7655L49.6008 43.8653C50.5988 45.1627 52.0958 45.8613 53.7924 45.6617C56.3872 45.4621 58.483 43.1667 59.2814 41.0709L59.481 40.6717L59.6806 41.0709C60.2794 42.6677 61.5769 44.6637 64.2715 44.3643ZM87.7246 14.6238C88.024 14.6238 88.3233 14.7236 88.523 15.023C89.521 16.4202 89.521 21.4102 87.8244 27.0989C86.8263 30.3923 85.5289 33.3863 83.9321 35.9811L83.6327 36.3803L83.5329 35.8813C83.3333 34.4841 83.2335 33.0869 83.2335 31.8893C82.9341 23.3065 85.5289 14.7236 87.7246 14.6238ZM59.481 34.6837C58.5828 38.2765 56.8862 42.5679 53.7924 42.8673H53.493C52.1956 42.8673 51.497 42.0689 51.3972 40.3723C51.1976 38.2765 52.0958 35.8813 53.6926 34.1847C54.6906 33.0869 55.7884 32.4881 56.7864 32.4881C58.1836 32.5879 59.0818 33.5859 59.481 34.6837ZM73.7525 21.51C72.6547 21.51 71.6567 22.4082 71.6567 23.5061C71.6567 24.6039 72.5549 25.5021 73.6527 25.5021V25.7017V25.5021C74.7505 25.5021 75.6487 24.6039 75.7485 23.5061C75.8483 22.4082 74.9501 21.51 73.7525 21.51ZM145.309 21.51C144.212 21.51 143.214 22.4082 143.214 23.5061C143.214 24.6039 144.112 25.5021 145.21 25.5021V25.7017V25.5021C146.307 25.5021 147.305 24.6039 147.305 23.5061C147.405 22.4082 146.507 21.51 145.309 21.51Z" fill="#008060"/>
+                            </svg>
+                        </div>
+
+                    </figure>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="position-relative right">
+                        <div class="position-relative">
+                            <img src="./img/service-woman.jpg" alt="" class="w-100">
+                        </div>
+
+                        <div class="behind-img"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--    Space Features-->
+        <div class="container mt-5 mt-lg-5">
+            <div class="text-center mb-5 down">
+                <h3 class="fw-bold mb-3 ">Space Features</h3>
+                <p class="fs-6">
+                    Read how we've helped some great companies brand, design and get to market.
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="card shadow-md border border-0 h-100 task-up">
+                        <div class="card-body">
+                            <img src="./img/service-card-img1.jpg" alt="" class="card-img rounded-3">
+
+                            <div class="p-3">
+                                <div class="card-title mb-3 ">
+                                    <h5 class="fw-bold mb-0">Attract</h5>
+                                </div>
+                                <div class="card-text mb-3">
+                                    This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.
+                                </div>
+                                <div class="">
+                                    <a href="#" class="text-decoration-none fw-bold">learn about Attract <span class="fas fa-angle-right "></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="card shadow-md border border-0 h-100 task-up">
+                        <div class="card-body">
+                            <img src="./img/service-card-img2.jpg" alt="" class="card-img rounded-3">
+
+                            <div class="p-3">
+                                <div class="card-title mb-3 ">
+                                    <h5 class="fw-bold mb-0">Grow</h5>
+                                </div>
+                                <div class="card-text mb-3">
+                                    Now that we've aligned the details, it's time to get things mapped out and organized.                            </div>
+                                <div class="">
+                                    <a href="#" class="text-decoration-none fw-bold">learn about Grow <span class="fas fa-angle-right "></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="card shadow-md border border-0 h-100 task-up">
+                        <div class="card-body">
+                            <img src="./img/service-card-img3.jpg" alt="" class="card-img rounded-3">
+
+                            <div class="p-3">
+                                <div class="card-title mb-3 ">
+                                    <h5 class="fw-bold mb-0">Retain</h5>
+                                </div>
+                                <div class="card-text mb-3">
+                                    We strive to embrace and drive change in our industry which allows us to keep our clients relevant.                            </div>
+                                <div class="">
+                                    <a href="#" class="text-decoration-none fw-bold">learn about Retain <span class="fas fa-angle-right "></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <p class="mb-2 upInterval">Want to read more?</p>
+                <a href="#" class=" upInterval text-primary fw-bold text-decoration-none">Explore Space News <span class="fas fa-angle-right ms-3"></span></a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!--    Contact-->
+
+    <section>
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-7 down">
+
+                    <div class="card border-0 shadow-md ">
+
+                        <div class="card-body p-4-5">
+                            <div class="text-center mb-5">
+                                <h4 class="fw-bold mb-3">How can we help?</h4>
+                                <p class="mb-0 fs-6">Need help, have questions or want to suggest a feature? Send us a message here.</p>
+                            </div>
+
+                            <form action="">
+
+                                <div class="row justify-content-between ">
+                                    <div class="col-12 col-lg-6 mb-4">
+                                        <div class="">
+                                            <input type="text" class="form-control form-control-lg" placeholder="Your Name">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-4">
+                                        <div class="">
+                                            <input type="text" class="form-control form-control-lg" placeholder="Your Name">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-12 mb-4">
+                                    <textarea name="" id=""  rows="5" class="form-control">
+
+                            </textarea>
+                                    </div>
+                                    <div class="col-12 col-lg-12">
+                                        <div class="">
+                                            <button class="btn btn-lg w-100 btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+                            </form>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="service-shape-2 overflow-hidden ">
+        <svg width="3000" height="400" viewBox="0 0 3000 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 400H3000V0L0 400Z" fill="#005c45"></path>
+        </svg>
+    </div>
+
+    <div class="bg-primary-dark">
+
+        <div class="content-space-1">
+
+            <div class="container">
+                <div class="row justify-content-center my-0 my-md-3" >
+                    <div class="col-12 col-md-4 border-1 position-relative service-footer-control ">
+                        <div class="text-center  pb-5 pb-md-0 left">
+                            <div class="svg-icon mb-4">
+                                <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.3" d="M18.0624 15.3453L13.1624 20.7453C12.5624 21.4453 11.5624 21.4453 10.9624 20.7453L6.06242 15.3453C4.56242 13.6453 3.76242 11.4453 4.06242 8.94534C4.56242 5.34534 7.46242 2.44534 11.0624 2.04534C15.8624 1.54534 19.9624 5.24534 19.9624 9.94534C20.0624 12.0453 19.2624 13.9453 18.0624 15.3453Z" fill="#fff"></path>
+                                    <path d="M12.0624 13.0453C13.7193 13.0453 15.0624 11.7022 15.0624 10.0453C15.0624 8.38849 13.7193 7.04535 12.0624 7.04535C10.4056 7.04535 9.06241 8.38849 9.06241 10.0453C9.06241 11.7022 10.4056 13.0453 12.0624 13.0453Z" fill="#fff"></path>
+                                </svg>
+                            </div>
+                            <h5 class="text-white fw-bold ">Visit us:</h5>
+                            <p class="text-white-50 mb-0">153 Williamson Plaza, Maggieberg</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 border-1 position-relative service-footer-control ">
+                        <div class="text-center py-5 py-md-0 left">
+                            <div class="svg-icon mb-4">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 21C6 21.6 6.4 22 7 22H17C17.6 22 18 21.6 18 21V20H6V21Z" fill="#fff"></path>
+                                    <path opacity="0.3" d="M17 2H7C6.4 2 6 2.4 6 3V20H18V3C18 2.4 17.6 2 17 2Z" fill="#fff"></path>
+                                    <path d="M12 4C11.4 4 11 3.6 11 3V2H13V3C13 3.6 12.6 4 12 4Z" fill="#fff"></path>
+                                </svg>
+                            </div>
+
+                            <h5 class="text-white fw-bold ">Call us:</h5>
+                            <p class="text-white-50 mb-0">+1 (062) 109-9222</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mt-4 mt-lg-0 ">
+                        <div class="text-center pt-5 pt-md-0 left">
+                            <div class="svg-icon mb-4">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.43 8.56949L10.744 15.1395C10.6422 15.282 10.5804 15.4492 10.5651 15.6236C10.5498 15.7981 10.5815 15.9734 10.657 16.1315L13.194 21.4425C13.2737 21.6097 13.3991 21.751 13.5557 21.8499C13.7123 21.9488 13.8938 22.0014 14.079 22.0015H14.117C14.3087 21.9941 14.4941 21.9307 14.6502 21.8191C14.8062 21.7075 14.9261 21.5526 14.995 21.3735L21.933 3.33649C22.0011 3.15918 22.0164 2.96594 21.977 2.78013C21.9376 2.59432 21.8452 2.4239 21.711 2.28949L15.43 8.56949Z" fill="#fff"></path>
+                                    <path opacity="0.3" d="M20.664 2.06648L2.62602 9.00148C2.44768 9.07085 2.29348 9.19082 2.1824 9.34663C2.07131 9.50244 2.00818 9.68731 2.00074 9.87853C1.99331 10.0697 2.04189 10.259 2.14054 10.4229C2.23919 10.5869 2.38359 10.7185 2.55601 10.8015L7.86601 13.3365C8.02383 13.4126 8.19925 13.4448 8.37382 13.4297C8.54839 13.4145 8.71565 13.3526 8.85801 13.2505L15.43 8.56548L21.711 2.28448C21.5762 2.15096 21.4055 2.05932 21.2198 2.02064C21.034 1.98196 20.8409 1.99788 20.664 2.06648V2.06648Z" fill="#fff"></path>
+                                </svg>                        </div>
+
+                            <h5 class="text-white fw-bold ">Email us:</h5>
+                            <p class="text-white-50 mb-0">example@site.com</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <footer>
+
+            <div class="container">
+                <div class="row content-space-1 d-flex justify-content-center px-3">
+                    <div class="col-lg-3 mb-5 mb-lg-0 down">
+                        <div class="down">
+                            <img src="img/logo-white.svg" alt="">
+                        </div>
+
+                        <div class="mt-5 mb-2">
+                            <span class="text-white  fw-bold mb-0">Choose a language</span>
+                        </div>
+
+                        <div class="btn-group " role="group">
+                            <button id="btnGroupDrop1" type="button" class="dropdown btn btn-soft-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./img/us.svg" alt="" width="16px" class="me-2 rounded-circle">
+                                English (US)
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <li class="px-2 py-1"><a class="p-2  dropdown-item" href="#">
+                                    <img src="./img/us.svg" alt="" width="16px" class="me-2 rounded-circle">
+                                    English (US)
+                                </a></li>
+                                <li class="px-2 py-1"><a class="p-2  dropdown-item" href="#">
+                                    <img src="./img/uk.svg" alt="" width="16px" class="me-2 rounded-circle">
+                                    English (UK)
+                                </a></li>
+                                <li class="px-2 py-1"><a class="p-2  dropdown-item" href="#">
+                                    <img src="./img/deutsch.svg" alt="" width="16px" class="me-2 rounded-circle">
+                                    Deutsch
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3  col-lg-2 mb-4 mb-lg-0 down">
+                        <span class="d-block text-cap mb-4 fw-bold">Resources</span>
+
+                        <ul class="  list-unstyled text-white">
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Blog</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Guidance</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Customers' stories</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Support
+                                    <i class="fas fa-arrow-up-right-from-square ms-1"></i>
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">API</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Packages</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-3 col-lg-2 mb-4 mb-lg-0 down">
+                        <span class="d-block text-cap mb-4 fw-bold">Company</span>
+
+                        <ul class="  list-unstyled text-white">
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Belonging</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Company</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Careers
+                                    <span class="badge bg-warning text-black ms-1 fw-light rounded-pill  ">We're hiring</span>
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Contacts</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Security</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-3 col-lg-2 down">
+                        <span class="d-block text-cap mb-4 fw-bold">Platform</span>
+
+                        <ul class="  list-unstyled text-white">
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Blog</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Guidance</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Customers' stories</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Support</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">API</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Packages</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-3 col-lg-2 down">
+                        <span class="d-block text-cap mb-4 fw-bold">Legel</span>
+
+                        <ul class="  list-unstyled text-white">
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Blog</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Guidance</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Customers' stories</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Support</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">API</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="link text-decoration-none text-white ">Packages</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="row p-4 end upInterval">
+                    <div class="col-6 col-lg-5">
+                        <p class="text-white mb-0 ">
+                            © Space. 2021 Htmlstream. All rights reserved.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <ul class="  list-unstyled d-flex justify-content-end">
+                            <li class="ms-3">
+                                <a href="" class="social-link">
+                                    <img class="social" src="./img/facebook-f-brands.svg"  alt="">
+                                </a>
+                            </li>
+
+                            <li class="ms-3">
+                                <a href="" class="social-link">
+                                    <img class="social" src="./img/twitter-brands.svg" alt="">
+                                </a>
+                            </li>
+
+                            <li class="ms-3">
+                                <a href="" class="social-link">
+                                    <img class="social" src="./img/github-brands.svg" alt="">
+                                </a>
+                            </li>
+
+                            <li class="ms-3">
+                                <a href="" class="social-link">
+                                    <img class="social" src="./img/slack-brands.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <div class="btn-arrow-up  animate__animated d-none">
+        <a href="#hero-section" class="btn bg-primary-soft-light ">
+            <i class="fas fa-angle-up text-primary"></i>
+        </a>
+    </div>
+</div>
+
+<script type="module" src="/main.js"></script>
+</body>
+</html>
