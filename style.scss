@@ -26,13 +26,6 @@ $accordion-button-active-icon : url('img/dash.svg');
 @import "swiper-bundle.min.css";
 @import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
 @import "node_modules/bootstrap/scss/bootstrap";
-//@import "node_modules/slick-carousel/slick/slick-theme.css";
-//@import "node_modules/slick-carousel/slick/slick.css";
-
-:global {
-  @import 'node_modules/slick-carousel/slick/slick.css';
-  @import "node_modules/slick-carousel/slick/slick-theme.css";
-}
 
 *{
   padding: 0;
@@ -262,6 +255,12 @@ width: 5.66667rem;
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
   border-color: transparent !important;
 }
+
+.btn-close:focus{
+  box-shadow: none !important;
+}
+
+
 .nav-link > .tab-row{
   transition: ease-in-out 0.15s;
 }
@@ -545,7 +544,7 @@ footer, .end{
 }
 .modal-close{
   top: 10px;
-  right: 10px;
+  right: 15px;
 }
 
 .google-login-button{

@@ -8,14 +8,6 @@ import Typed from 'typed.js';
 import * as bootstrap from 'bootstrap';
 
 
-//slick
-
-
-
-
-// swiper Test
-
-
 var menu= ['Discover how to build and maintain coding systems using our documentation.', 'Start browsing our snippets pages with copy-to-clipboard snippets to match Bootstrap\'s level of quality.','Apart from 70+ HTML-pages, the theme comes with 3 ready-to-use and stand-alone demo options.\n']
 var swiper = new Swiper(".mySwiper", {
 
@@ -176,7 +168,6 @@ ScrollReveal().reveal('.upInterval',upInterval)
 
 let btn_arrow_up= document.querySelector('.btn-arrow-up')
 window.addEventListener('scroll',function (){
-    console.log(this.scrollY)
 
    if(this.scrollY > 790) {
        btn_arrow_up.classList.remove('animate__fadeOutUp')
