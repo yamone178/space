@@ -1,9 +1,9 @@
-import '../scss/style.scss'
+import '../style.scss'
 import Typed from 'typed.js';
 
 
 var options = {
-    strings: ['business','startup','success'],
+    strings: ['business','team','startUp'],
     typeSpeed: 50,
     loop: true,
     cursorChar: '<span class="text-warning">|</span>',
