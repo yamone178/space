@@ -1,5 +1,6 @@
-import '../style.scss';
-import '../swiper-bundle.min';
+import '../scss/style.scss';
+import Swiper from 'swiper';
+// import '../node_modules/swiper-bundle.min.css'
 import ScrollReveal from "scrollreveal";
 import counterUp from 'counterup2'
 import "waypoints/lib/noframework.waypoints"

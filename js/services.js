@@ -1,5 +1,5 @@
-import '../style.scss'
-import '../services.scss'
+import '../scss/style.scss'
+import '../scss/services.scss'
 
 import Typed from 'typed.js';
 
