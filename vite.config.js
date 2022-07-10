@@ -20,6 +20,7 @@ module.exports = {
                 main: resolve(__dirname, 'index.html'),
                 services: resolve(__dirname, 'services.html'),
                 agency: resolve(__dirname, 'agency.html'),
+                consulting: resolve(__dirname, 'consulting.html')
             }
         }
     }
