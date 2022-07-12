@@ -1,0 +1,154 @@
+.consulting .nav-item:hover .nav-link,
+.consulting .nav-item .nav-link.active
+{
+  color: white !important;
+}
+
+.consulting .link-border{
+  border-left: 1px solid rgba(255,255,255,.2) !important;
+}
+.consulting.navbar-nav{
+  background-color: #005c45 !important;
+}
+.fs-li{
+  font-size: 1.125rem;
+}
+
+.text-black-60{
+  color: #51596c !important;
+}
+
+.fs-check-icon{
+  font-size: 28px;
+}
+
+.lead{
+  font-size: 1.5rem;
+}
+.shadow-xl{
+  box-shadow: 0 3.75rem 5rem 0 rgba(140,152,164,.3);
+}
+.pb-6{
+  padding-bottom: 4rem !important;
+}
+
+.watchBtn:hover{
+  color: #f9fafc;
+  background-color: rgba(249,250,252,.1);
+}
+
+.work-flow .nav-pills .nav-link.active{
+  background: none !important;
+}
+
+.point-btn{
+  width: 2.3125rem;
+  height: 2.3125rem;
+  color: #51596c;
+  background-color: rgba(81,89,108,.1);
+}
+
+.points>:not(:last-child) .point-btn::after{
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 50%;
+  background:rgba(0,34,28,.1);
+  top: 65%;
+}
+
+.work-flow .nav-pills .nav-link.active .point-btn{
+  background-color: #008060 !important;
+  color: white;
+
+}
+
+.work-flow .nav-pills .nav-link.active .point-title{
+  color: #008060 !important;
+}
+
+.points>:not(:last-child) .nav-link .point-btn:after{
+  width: 2px;
+}
+
+
+.grid-lines{
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+.grid-lines > .lines-container{
+  display: grid;
+  grid: 1fr/repeat(6,1fr);
+  height: 100%;
+  margin: 0 auto;
+}
+
+.line-item{
+  width: .0625rem;
+  border-left: .0625rem  solid rgba(255,255,255,.1);
+
+}
+
+.consulting-shape > svg{
+width: 100%;
+  height: auto;
+}
+
+//.devices{
+//  margin-top: -13rem;
+//}
+
+.rotate-3d-left{
+  transform: perspective(1140px) rotateX(7deg) rotateY(-17deg) rotateZ(4deg);
+}
+
+.consult-phones{
+  box-shadow: 0 .375rem 1.5rem 0 rgba(140,152,164,.125)!important;
+}
+
+
+
+
+@media screen and (max-width: 414px){
+  .devices{
+    margin-top: -5rem !important;
+  }
+  .consulting .link-border{
+    border-left: 0 !important;
+  }
+  .w-sm-100{
+    width: 100% !important;
+  }
+
+}
+
+@media screen and (min-width: 768px){
+  .consulting .link-border{
+    border-left: 0 !important;
+  }
+  .devices{
+    margin-top: -9rem;
+  }
+}
+
+
+@media screen and (min-width: 1366px){
+  .devices{
+    margin-top: -15rem;
+  }
+}
+
+@media  screen and (width: 1920px) {
+  .devices{
+    margin-top: -19rem;
+  }
+
+  .consult-p-control{
+    height: 96px;
+  }
+
+}

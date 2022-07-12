@@ -5,6 +5,8 @@ $font-size-base: 1rem;
 $table-cell-padding-y: 0.75rem;
 $table-cell-padding-x: 0.75rem;
 $warning:#f1b980;
+//$navbar-dark-toggler-icon-bg: url("img/align-left.png");
+
 
 
 //accordion
@@ -171,10 +173,25 @@ h5{
 
 }
 
+
+
 .navbar-toggler:focus .navbar-toggler-icon{
   background-image: url(img/filter-left.svg) !important;
   transition: 0.5s;
 
+}
+
+.navbar-dark .navbar-toggler:focus .navbar-toggler-icon{
+  background-image: url(img/align-left.png) !important;
+  transition: 0.5s;
+
+}
+
+.navbar-dark .navbar-toggler-icon{
+  background-image: $navbar-dark-toggler-icon-bg !important;
+}
+.navbar-dark .navbar-toggler.collapsed:focus .navbar-toggler-icon {
+  background-image: $navbar-dark-toggler-icon-bg !important;
 }
 
 .navbar{
@@ -315,12 +332,19 @@ width: 5.66667rem;
 .browser-frame{
   width: 870px;
   box-shadow: 0 2.75rem 5.5rem -1rem rgb(189 197 209 / 50%), 0 2rem 4rem -1rem rgb(0 34 28 / 15%);
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+ border-radius: 0.5rem;
 }
+
+.browser-header{
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+
 
 .browser-frame img{
   width: 100%;
+
 }
 .circle{
   width: 0.5rem;
@@ -392,6 +416,7 @@ width: 5.66667rem;
   padding-bottom: 5rem;
 }
 
+
 .content-space-md{
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -447,11 +472,24 @@ footer, .end{
   max-width: 550px;
 }
 
-.w-lg-100{
 
-}
 
 @media screen and (max-width: 768px and 912px){
+
+  .content-space-1{
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+  .content-space-t-1{
+    padding-top: 4rem !important;
+  }
+  .content-space-b-1{
+    padding-bottom: 4rem !important;
+
+  }
+  .w-md-75{
+    width: 75% !important;
+  }
   .link-border{
     border: 0 !important;
   }
@@ -473,10 +511,19 @@ footer, .end{
   }
 }
 
+@media screen and (max-width: 1366px and 1920px) {
+  .content-space-md-b1{
+    padding-bottom: 7.5rem !important;
+  }
 
+
+}
 
 
 @media screen and (max-width: 360px and 414px){
+  .w-sm-100{
+    width: 100% !important;
+  }
   .link-border{
     border: 0 !important;
   }
@@ -490,6 +537,13 @@ footer, .end{
   .content-space-1{
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
+  }
+  .content-space-t-1{
+    padding-top: 4rem !important;
+  }
+  .content-space-b-1{
+    padding-bottom: 4rem !important;
+
   }
   .w-lg-100{
     width: 100% !important;

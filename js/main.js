@@ -1,5 +1,6 @@
 import '../style.scss';
 import '../swiper-bundle.min';
+// import Swiper  from 'swiper';
 
 import counterUp from 'counterup2'
 import "waypoints/lib/noframework.waypoints"

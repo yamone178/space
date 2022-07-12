@@ -14,6 +14,7 @@ const { resolve } = require('path')
 // }
 
 module.exports = {
+
     build: {
         rollupOptions: {
             input: {
@@ -24,3 +25,38 @@ module.exports = {
         }
     }
 }
+
+module.exports = {
+    // remove modules you don't need
+    modules: [
+        'virtual',
+        'keyboard',
+        'mousewheel',
+        'navigation',
+        'pagination',
+        'scrollbar',
+        'parallax',
+        'zoom',
+        'lazy',
+        'controller',
+        'a11y',
+        'history',
+        'hash-navigation',
+        'autoplay',
+        'thumbs',
+        'free-mode',
+        'grid',
+        'manipulation',
+        'effect-fade',
+        'effect-cube',
+        'effect-flip',
+        'effect-coverflow',
+        'effect-creative',
+        'effect-cards',
+    ],
+};
+
+module.exports = {
+    devtool: "source-map",
+}
+
