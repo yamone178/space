@@ -1,5 +1,5 @@
 import '../style.scss';
-// import Swiper  from 'swiper';
+import Swiper  from 'swiper';
 
 import counterUp from 'counterup2'
 import "waypoints/lib/noframework.waypoints"
