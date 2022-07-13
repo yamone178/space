@@ -1,19 +1,22 @@
 import '../style.scss'
 import '../agency.scss'
-import Typed from 'typed.js';
+import '../swiper-bundle.min';
+import Typed from "typed.js";
 import ScrollReveal from "scrollreveal";
 
 
 var options = {
-    strings: ['business','startup','success'],
+    strings: ['business','team','startUp'],
     typeSpeed: 50,
     loop: true,
     cursorChar: '<span class="text-warning">|</span>',
 };
 
-let typing= new Typed('.agency-type', options);
+let typing= new Typed('.home-type', options);
 
 
+
+/// >>>>> Scrollreveal <<<<<<///
 
 let slideDown = {
     distance: '50px',
@@ -21,14 +24,16 @@ let slideDown = {
     duration : 900,
     interval : 300,
     easing: "ease-in",
+    reset: true
 };
 
 let slidUp={
-    distance: '70px',
+    distance: '90px',
     origin: 'bottom',
     duration : 1000,
     easing: "ease-out",
     cleanup: true,
+    reset: true
 
 }
 
@@ -39,6 +44,7 @@ let upInterval={
     interval: 200,
     easing: "ease-out",
     cleanup: true,
+    reset: true
 }
 
 let taskUp={
@@ -48,16 +54,10 @@ let taskUp={
     easing: "ease-out",
     interval: 300,
     cleanup: true,
+    reset: true
 
 }
-let tableTextDown={
-    distance: '20px',
-    origin: 'top',
-    duration : 500,
-    easing: "ease-in",
-    interval: 80,
-    delay: 100
-}
+
 
 let ratingUp={
     distance: '90px',
@@ -66,6 +66,7 @@ let ratingUp={
     easing: "ease-out",
     interval:300,
     cleanup: true,
+    reset: true
 
 }
 
@@ -74,7 +75,8 @@ let slideRight={
     origin: 'left',
     duration : 1000,
     easing: "ease-out",
-    cleanup: true
+    cleanup: true,
+    reset: true
 
 }
 
@@ -83,7 +85,8 @@ let slideLeft={
     origin: 'right',
     duration : 1000,
     easing: "ease-out",
-    cleanup: true
+    cleanup: true,
+    reset: true
 
 
 
@@ -99,22 +102,57 @@ let navDown={
     cleanup: true,
 
 }
-
-
-let heroUps= document.querySelectorAll('.up')
-let ratingUps= document.querySelectorAll('.ratingUp')
-let down= document.querySelectorAll('.down');
-let left= document.querySelectorAll('.right');
-let right= document.querySelectorAll('.left');
-let taskUps= document.querySelectorAll('.task-up')
-let textUps= document.querySelectorAll('.text-up')
+let listDown={
+    distance: '30px',
+    origin: 'top',
+    duration : 800,
+    easing: "ease-in",
+    interval: 100,
+    cleanup: true,
+}
 
 ScrollReveal().reveal('.navDown', navDown);
-ScrollReveal().reveal(heroUps,slidUp);
-ScrollReveal().reveal(ratingUps,ratingUp)
-ScrollReveal().reveal(down,slideDown);
-ScrollReveal().reveal(left,slideLeft);
-ScrollReveal().reveal(right,slideRight)
-ScrollReveal().reveal(taskUps,taskUp)
-ScrollReveal().reveal(textUps,tableTextDown)
+ScrollReveal().reveal('.up',slidUp);
+ScrollReveal().reveal('.ratingUp',ratingUp)
+ScrollReveal().reveal('.down',slideDown);
+ScrollReveal().reveal('.left',slideLeft);
+ScrollReveal().reveal('.right',slideRight)
+ScrollReveal().reveal('.task-up',taskUp)
 ScrollReveal().reveal('.upInterval',upInterval)
+ScrollReveal().reveal('.listDown',listDown)
+
+
+// swiper////////// Swiper
+var menu= ['Discover how to build and maintain coding systems using our documentation.', 'Start browsing our snippets pages with copy-to-clipboard snippets to match Bootstrap\'s level of quality.','Apart from 70+ HTML-pages, the theme comes with 3 ready-to-use and stand-alone demo options.\n']
+var swiper = new Swiper(".mySwiper", {
+
+    initialSlide:2,
+    touchRatio:0,
+    autoplay:{
+        delay: 5000,
+        disableOnInteraction: false
+    },
+    autoplayDisableOnInteraction: false,
+    effect: 'fade',
+    speed: 1000,
+
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className){
+            return '<span class="'+ className +'">'+ menu[index] +'</span>'
+        }
+    },
+
+
+    breakpoints: {
+
+        // when window width is >= 480px
+        414: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            dynamicMainBullets: 1
+        },
+
+    }
+});

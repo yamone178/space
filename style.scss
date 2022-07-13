@@ -74,7 +74,9 @@ h5{
   padding-bottom: 0.8rem;
 }
 
-
+.text-black-60{
+  color: #51596c !important;
+}
 
 .mb-lg-10{
   margin-bottom: 4.5rem !important;
@@ -508,6 +510,9 @@ footer, .end{
     display: flex;
     justify-content: center;
     margin-right: 0 !important;
+  }
+  .shape{
+    margin-top: -29rem !important;
   }
 }
 

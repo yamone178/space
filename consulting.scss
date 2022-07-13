@@ -4,9 +4,7 @@
   color: white !important;
 }
 
-.consulting .link-border{
-  border-left: 1px solid rgba(255,255,255,.2) !important;
-}
+
 .consulting.navbar-nav{
   background-color: #005c45 !important;
 }
@@ -14,9 +12,7 @@
   font-size: 1.125rem;
 }
 
-.text-black-60{
-  color: #51596c !important;
-}
+
 
 .fs-check-icon{
   font-size: 28px;
@@ -140,11 +136,17 @@ width: 100%;
   .devices{
     margin-top: -15rem;
   }
+  .consulting .link-border{
+    border-left: 1px solid rgba(255,255,255,.2) !important;
+  }
 }
 
 @media  screen and (width: 1920px) {
   .devices{
     margin-top: -19rem;
+  }
+  .consulting .link-border{
+    border-left: 1px solid rgba(255,255,255,.2) !important;
   }
 
   .consult-p-control{

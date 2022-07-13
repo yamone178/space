@@ -1,54 +1,9 @@
 import '../style.scss';
-import '../swiper-bundle.min';
 // import Swiper  from 'swiper';
 
 import counterUp from 'counterup2'
 import "waypoints/lib/noframework.waypoints"
-
-
 import * as bootstrap from 'bootstrap';
-
-
-var menu= ['Discover how to build and maintain coding systems using our documentation.', 'Start browsing our snippets pages with copy-to-clipboard snippets to match Bootstrap\'s level of quality.','Apart from 70+ HTML-pages, the theme comes with 3 ready-to-use and stand-alone demo options.\n']
-var swiper = new Swiper(".mySwiper", {
-
-    initialSlide:2,
-    touchRatio:0,
-    autoplay:{
-        delay: 5000,
-        disableOnInteraction: false
-    },
-    autoplayDisableOnInteraction: false,
-    effect: 'fade',
-    speed: 1000,
-
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        renderBullet: function (index, className){
-            return '<span class="'+ className +'">'+ menu[index] +'</span>'
-        }
-    },
-
-
-    breakpoints: {
-
-        // when window width is >= 480px
-        414: {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            dynamicMainBullets: 1
-        },
-
-    }
-});
-
-
-
-
-
-
-
 
 let btn_arrow_up= document.querySelector('.btn-arrow-up')
 window.addEventListener('scroll',function (){

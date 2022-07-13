@@ -20,6 +20,7 @@ let slideDown = {
     duration : 900,
     interval : 300,
     easing: "ease-in",
+    reset :true
 };
 
 let slidUp={
@@ -28,6 +29,7 @@ let slidUp={
     duration : 1000,
     easing: "ease-out",
     cleanup: true,
+    reset: true
 
 }
 
@@ -38,6 +40,8 @@ let upInterval={
     interval: 200,
     easing: "ease-out",
     cleanup: true,
+    reset: true
+
 }
 
 let taskUp={
@@ -47,6 +51,7 @@ let taskUp={
     easing: "ease-out",
     interval: 300,
     cleanup: true,
+    reset: true
 
 }
 let tableTextDown={
@@ -55,7 +60,9 @@ let tableTextDown={
     duration : 500,
     easing: "ease-in",
     interval: 80,
-    delay: 100
+    delay: 100,
+
+
 }
 
 let ratingUp={
@@ -65,26 +72,27 @@ let ratingUp={
     easing: "ease-out",
     interval:300,
     cleanup: true,
+    reset: true
 
 }
 
 let slideRight={
-    distance: '160px',
+    distance: '90px',
     origin: 'left',
     duration : 1000,
     easing: "ease-out",
-    cleanup: true
+    cleanup: true,
+    reset: true
 
 }
 
 let slideLeft={
-    distance: '30px',
+    distance: '90px',
     origin: 'right',
     duration : 1000,
     easing: "ease-out",
-    cleanup: true
-
-
+    cleanup: true,
+    reset: true
 
 }
 
@@ -97,6 +105,14 @@ let navDown={
     easing: "ease-out",
     cleanup: true,
 
+}
+let listDown={
+    distance: '30px',
+    origin: 'top',
+    duration : 800,
+    easing: "ease-in",
+    interval: 100,
+    cleanup: true,
 }
 
 
@@ -117,3 +133,5 @@ ScrollReveal().reveal(right,slideRight)
 ScrollReveal().reveal(taskUps,taskUp)
 ScrollReveal().reveal(textUps,tableTextDown)
 ScrollReveal().reveal('.upInterval',upInterval)
+ScrollReveal().reveal('.listDown',listDown)
+

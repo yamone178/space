@@ -6,7 +6,7 @@ import ScrollReveal from "scrollreveal";
 
 
 var options = {
-    strings: ['business','startup','success'],
+    strings: ['technology','startup','success'],
     typeSpeed: 50,
     loop: true,
     cursorChar: '<span class="text-warning">|</span>',
@@ -16,12 +16,15 @@ let typing= new Typed('.service-type', options);
 
 
 
+/// >>>>> Scrollreveal <<<<<<///
+
 let slideDown = {
     distance: '50px',
     origin: 'top',
     duration : 900,
     interval : 300,
     easing: "ease-in",
+    reset: true
 };
 
 let slidUp={
@@ -30,6 +33,7 @@ let slidUp={
     duration : 1000,
     easing: "ease-out",
     cleanup: true,
+    reset: true
 
 }
 
@@ -40,6 +44,7 @@ let upInterval={
     interval: 200,
     easing: "ease-out",
     cleanup: true,
+    reset: true
 }
 
 let taskUp={
@@ -49,16 +54,10 @@ let taskUp={
     easing: "ease-out",
     interval: 300,
     cleanup: true,
+    reset: true
 
 }
-let tableTextDown={
-    distance: '20px',
-    origin: 'top',
-    duration : 500,
-    easing: "ease-in",
-    interval: 80,
-    delay: 100
-}
+
 
 let ratingUp={
     distance: '90px',
@@ -67,6 +66,7 @@ let ratingUp={
     easing: "ease-out",
     interval:300,
     cleanup: true,
+    reset: true
 
 }
 
@@ -75,7 +75,8 @@ let slideRight={
     origin: 'left',
     duration : 1000,
     easing: "ease-out",
-    cleanup: true
+    cleanup: true,
+    reset: true
 
 }
 
@@ -84,7 +85,8 @@ let slideLeft={
     origin: 'right',
     duration : 1000,
     easing: "ease-out",
-    cleanup: true
+    cleanup: true,
+    reset: true
 
 
 
@@ -100,22 +102,22 @@ let navDown={
     cleanup: true,
 
 }
-
-
-let heroUps= document.querySelectorAll('.up')
-let ratingUps= document.querySelectorAll('.ratingUp')
-let down= document.querySelectorAll('.down');
-let left= document.querySelectorAll('.right');
-let right= document.querySelectorAll('.left');
-let taskUps= document.querySelectorAll('.task-up')
-let textUps= document.querySelectorAll('.text-up')
+let listDown={
+    distance: '30px',
+    origin: 'top',
+    duration : 800,
+    easing: "ease-in",
+    interval: 100,
+    cleanup: true,
+}
 
 ScrollReveal().reveal('.navDown', navDown);
-ScrollReveal().reveal(heroUps,slidUp);
-ScrollReveal().reveal(ratingUps,ratingUp)
-ScrollReveal().reveal(down,slideDown);
-ScrollReveal().reveal(left,slideLeft);
-ScrollReveal().reveal(right,slideRight)
-ScrollReveal().reveal(taskUps,taskUp)
-ScrollReveal().reveal(textUps,tableTextDown)
+ScrollReveal().reveal('.up',slidUp);
+ScrollReveal().reveal('.ratingUp',ratingUp)
+ScrollReveal().reveal('.down',slideDown);
+ScrollReveal().reveal('.left',slideLeft);
+ScrollReveal().reveal('.right',slideRight)
+ScrollReveal().reveal('.task-up',taskUp)
 ScrollReveal().reveal('.upInterval',upInterval)
+ScrollReveal().reveal('.listDown',listDown)
+
