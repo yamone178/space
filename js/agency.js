@@ -1,6 +1,8 @@
 import '../style.scss'
 import '../agency.scss'
-import '../swiper-bundle.min';
+import '../swiper-bundle.min.css'
+// import Swiper from "swiper";
+import '../swiper-bundle.min'
 import Typed from "typed.js";
 import ScrollReveal from "scrollreveal";
 
