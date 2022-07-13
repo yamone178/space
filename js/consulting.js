@@ -38,7 +38,6 @@ let navDown={
     duration : 900,
     interval : 500,
     easing: "ease-out",
-    cleanup: true,
 
 }
 let up={
@@ -47,8 +46,7 @@ let up={
     duration : 900,
     interval: 200,
     easing: "ease-out",
-    cleanup: true,
-    reset: true
+
 }
 
 let titleDown={
@@ -57,7 +55,7 @@ let titleDown={
     duration : 900,
     interval : 300,
     easing: "ease-in",
-    reset: true
+
 }
 
 let taskUp={
@@ -66,8 +64,7 @@ let taskUp={
     duration : 1000,
     easing: "ease-out",
     interval: 300,
-    cleanup: true,
-    reset: true
+
 
 }
 
@@ -77,16 +74,14 @@ let taskDown={
     duration : 1000,
     easing: "ease-out",
     interval: 300,
-    cleanup: true,
-    reset: true
+
 }
 let slideRight={
     distance: '70px',
     origin: 'left',
     duration : 1000,
     easing: "ease-out",
-    cleanup: true,
-    reset: true
+
 
 }
 
@@ -95,8 +90,7 @@ let slideLeft={
     origin: 'right',
     duration : 1000,
     easing: "ease-out",
-    cleanup: true,
-    reset: true
+
 
 }
 let listDown={
@@ -105,7 +99,6 @@ let listDown={
     duration : 800,
     easing: "ease-in",
     interval: 100,
-    cleanup: true,
 }
 ScrollReveal().reveal('.consulting-nav',navDown)
 ScrollReveal().reveal('.up',up)

@@ -20,7 +20,7 @@ let slideDown = {
     duration : 900,
     interval : 300,
     easing: "ease-in",
-    reset :true
+
 };
 
 let slidUp={
@@ -28,8 +28,7 @@ let slidUp={
     origin: 'bottom',
     duration : 1000,
     easing: "ease-out",
-    cleanup: true,
-    reset: true
+
 
 }
 
@@ -39,8 +38,7 @@ let upInterval={
     duration : 900,
     interval: 200,
     easing: "ease-out",
-    cleanup: true,
-    reset: true
+
 
 }
 
@@ -50,8 +48,7 @@ let taskUp={
     duration : 1000,
     easing: "ease-out",
     interval: 300,
-    cleanup: true,
-    reset: true
+
 
 }
 let tableTextDown={
@@ -71,8 +68,7 @@ let ratingUp={
     duration : 900,
     easing: "ease-out",
     interval:300,
-    cleanup: true,
-    reset: true
+
 
 }
 
@@ -81,8 +77,7 @@ let slideRight={
     origin: 'left',
     duration : 1000,
     easing: "ease-out",
-    cleanup: true,
-    reset: true
+
 
 }
 
@@ -91,8 +86,7 @@ let slideLeft={
     origin: 'right',
     duration : 1000,
     easing: "ease-out",
-    cleanup: true,
-    reset: true
+
 
 }
 
@@ -103,7 +97,6 @@ let navDown={
     duration : 900,
     interval : 500,
     easing: "ease-out",
-    cleanup: true,
 
 }
 let listDown={
@@ -112,7 +105,6 @@ let listDown={
     duration : 800,
     easing: "ease-in",
     interval: 100,
-    cleanup: true,
 }
 
 
