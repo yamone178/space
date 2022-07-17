@@ -1,9 +1,5 @@
-import './style.scss';
-import './swiper-bundle.min'
-import './js/consulting'
-import './js/agency'
-import './js/services'
-import './js/corporate'
+import '../style.scss';
+import '../swiper-bundle.min'
 
 import counterUp from 'counterup2'
 import "waypoints/lib/noframework.waypoints"
