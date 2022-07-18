@@ -21,9 +21,9 @@
     <meta property="og:description" content="This is Space - Multipurpose Responsive Template">
     <meta property="og:image" content="./img/feature.png">
 </head>
-<body>
+<body style="overflow-x: hidden">
 
-<nav class="consulting-nav animate__animated navbar navbar-expand-lg navbar-dark   py-2 py-lg-3 position-absolute w-100 navDown">
+<nav class="consulting-nav   navbar navbar-expand-lg navbar-dark   py-2 py-lg-3 position-absolute w-100 ">
     <div class="container px-3 px-md-3">
         <a class="navbar-brand" href="#">
             <img src="./img/logo-white.svg" alt="">
@@ -249,7 +249,7 @@
                 </div>
             </div>
 
-            <div class="row mt-5 position-relative" style="z-index: 1">
+            <div class="row mt-5 position-relative countingSection" style="z-index: 1">
                 <div class="col-12 col-md-4">
                     <div class="mb-5 task-up">
                         <h1 class="text-white counter">45k+</h1>
@@ -822,7 +822,7 @@
         <footer>
 
             <div class="container">
-                <div class="row content-space-1 d-flex justify-content-center px-3">
+                <div class="row content-space-1 d-flex justify-content-center px-3 position-relative" style="z-index: 1">
                     <div class="col-lg-3 mb-5 mb-lg-0">
                         <div class="listDown">
                             <img src="img/logo-white.svg" alt="">
@@ -832,7 +832,7 @@
                             <span class="text-white  fw-bold mb-0">Choose a language</span>
                         </div>
 
-                        <div class="btn-group listDown" role="group">
+                        <div class="btn-group listDown " role="group" style="z-index: 2;">
                             <button id="btnGroupDrop1" type="button" class="dropdown btn btn-soft-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="./img/us.svg" alt="" width="16px" class="me-2 rounded-circle">
                                 English (US)
@@ -854,7 +854,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-md-3  col-lg-2 mb-4 mb-lg-0 listDown">
+                    <div class="col-6 col-md-3  col-lg-2 mb-4 mb-lg-0 listDown" style="z-index: -1">
                         <span class="d-block text-cap mb-4 fw-bold">Resources</span>
 
                         <ul class="  list-unstyled text-white">
@@ -1018,7 +1018,6 @@
 
 
 
-<script type="module" src="./js/main.js"></script>
 <script type="module" src="./js/consulting.js"></script>
 
 </body>

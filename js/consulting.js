@@ -1,23 +1,103 @@
+import '../style.scss';
 import '../consulting.scss'
 import ScrollReveal from "scrollreveal";
 import Typed from "typed.js";
 
 
-let consultNav= document.querySelector('.consulting-nav');
+import counterUp from 'counterup2'
+import "waypoints/lib/noframework.waypoints"
+import * as bootstrap from 'bootstrap';
+
+let btn_arrow_up= document.querySelector('.btn-arrow-up')
 window.addEventListener('scroll',function (){
-    if (this.scrollY >620){
-        consultNav.classList.remove('position-absolute')
-        consultNav.classList.add('position-fixed')
-        consultNav.classList.add('bg-primary-dark')
-        consultNav.classList.add('animate__fadeInDown')
-    }
-    else {
-        consultNav.classList.remove('position-fixed')
-        consultNav.classList.add('position-absolute')
-        consultNav.classList.remove('bg-primary-dark')
+
+    if(this.scrollY > 790) {
+        btn_arrow_up.classList.remove('animate__fadeOutUp')
+        btn_arrow_up.classList.remove('d-none')
+        btn_arrow_up.classList.add('d-block')
+        btn_arrow_up.classList.add('animate__fadeInDown')
+    }else {
+        btn_arrow_up.classList.remove('animate__fadeInDown')
+        btn_arrow_up.classList.add('animate__fadeOutUp')
+
 
     }
+
+
 })
+
+
+
+const els = document.querySelectorAll( '.counter' )
+
+// Start counting, do this on DOM ready or with Waypoints.
+
+const counters = document.querySelectorAll( '.counter' )
+
+counters.forEach((count)=>{
+    return new Waypoint( {
+        element: count,
+        handler: function() {
+            counterUp( count, {
+                duration : 1500,
+                delay: 20
+            } )
+            this.destroy()
+        },
+        offset: 'bottom-in-view',
+    } )
+
+})
+
+let countingSection=document.querySelector('.countingSection');
+let consultNav= document.querySelector('.consulting-nav');
+
+let navWayPoint = new Waypoint({
+    element: countingSection,
+    handler: function(direction) {
+        if(direction === "down"){
+            console.log("about section appear")
+
+            consultNav.classList.remove('animate__animated')
+            consultNav.classList.remove('animate__fadeInUp')
+            consultNav.classList.add('animate__animated')
+            consultNav.classList.add('animate__fadeInDown')
+
+            consultNav.classList.toggle("showNavbar")
+            consultNav.classList.toggle("bg-primary-dark")
+
+
+
+        }else{
+            console.log("about section leave")
+            consultNav.classList.remove('animate__animated')
+            consultNav.classList.remove('animate__fadeInDown')
+            consultNav.classList.add('animate__animated')
+            consultNav.classList.add('animate__fadeInUp')
+            consultNav.classList.toggle("showNavbar")
+            consultNav.classList.toggle("bg-primary-dark")
+
+        }
+    },
+    offset: "0%"
+})
+
+// window.addEventListener('scroll',function (){
+//     if (this.scrollY >620){
+//         consultNav.classList.add('showNavbar')
+//         // consultNav.classList.remove('position-absolute')
+//         // consultNav.classList.add('position-fixed')
+//         // consultNav.classList.add('showNav')
+//         consultNav.classList.add('bg-primary-dark')
+//
+//     }
+//     else {
+//         consultNav.classList.remove('showNavbar')
+//         // consultNav.classList.add('position-absolute')
+//         consultNav.classList.remove('bg-primary-dark')
+//
+//     }
+// })
 
 // type js
 var options = {
@@ -100,6 +180,13 @@ let listDown={
     easing: "ease-in",
     interval: 100,
 }
+let showNav={
+    distance: '70px',
+    origin: 'top',
+    duration : 1000,
+    easing: "ease-in",
+    reset: true
+}
 ScrollReveal().reveal('.consulting-nav',navDown)
 ScrollReveal().reveal('.up',up)
 ScrollReveal().reveal('.task-up',taskUp)
@@ -108,5 +195,6 @@ ScrollReveal().reveal('.taskDown',taskDown)
 ScrollReveal().reveal('.slideLeft',slideLeft)
 ScrollReveal().reveal('.slideRight',slideRight)
 ScrollReveal().reveal('.listDown',listDown)
+ScrollReveal().reveal('.showNav',showNav)
 
 

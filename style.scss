@@ -163,31 +163,17 @@ h5{
 
 //change toggler icon
 
-
-
-.navbar-toggler.collapsed:focus .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-
-.navbar-light .navbar-toggler-icon{
-  //background-image: url(img/filter-left.svg);
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+.navbar-light .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon{
+  background-image: url(img/light-toggler.png) !important;
+  transition: 0.3s;
 
 }
-
-
-
-.navbar-toggler:focus .navbar-toggler-icon{
-  background-image: url(img/filter-left.svg) !important;
-  transition: 0.5s;
-
-}
-
-.navbar-dark .navbar-toggler:focus .navbar-toggler-icon{
+.navbar-dark .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon{
   background-image: url(img/align-left.png) !important;
-  transition: 0.5s;
+  transition: 0.3s;
 
 }
+
 
 .navbar-dark .navbar-toggler-icon{
   background-image: $navbar-dark-toggler-icon-bg !important;
@@ -195,6 +181,8 @@ h5{
 .navbar-dark .navbar-toggler.collapsed:focus .navbar-toggler-icon {
   background-image: $navbar-dark-toggler-icon-bg !important;
 }
+
+//end///
 
 .navbar{
   z-index: 1005;

@@ -1,3 +1,5 @@
+@import "node_modules/animate.css/animate.min.css";
+
 .consulting .nav-item:hover .nav-link,
 .consulting .nav-item .nav-link.active
 {
@@ -106,6 +108,10 @@ width: 100%;
   box-shadow: 0 .375rem 1.5rem 0 rgba(140,152,164,.125)!important;
 }
 
+.showNavbar{
+  position: fixed !important;
+  //animation: fake 1s ease-in-out;
+}
 
 
 
