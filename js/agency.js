@@ -1,10 +1,10 @@
 import '../style.scss'
 import '../agency.scss'
-// import '../swiper-bundle.min.css'
+import '../swiper-bundle.min.css'
 // import Swiper from "swiper";
-// import '../swiper-bundle.min'
-import '../node_modules/swiper/swiper-bundle.min'
-import '../node_modules/swiper/swiper-bundle.min.css'
+import '../swiper-bundle.min'
+// import '../node_modules/swiper/swiper-bundle.min'
+// import '../node_modules/swiper/swiper-bundle.min.css'
 import Typed from "typed.js";
 import ScrollReveal from "scrollreveal";
 

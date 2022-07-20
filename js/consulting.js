@@ -5,7 +5,7 @@ import Typed from "typed.js";
 
 
 import counterUp from 'counterup2'
-import "waypoints/lib/noframework.waypoints"
+import "../node_modules/waypoints/lib/noframework.waypoints"
 import * as bootstrap from 'bootstrap';
 
 let btn_arrow_up= document.querySelector('.btn-arrow-up')
@@ -58,8 +58,7 @@ let navWayPoint = new Waypoint({
         if(direction === "down"){
             console.log("about section appear")
 
-            consultNav.classList.remove('animate__animated')
-            consultNav.classList.remove('animate__fadeInUp')
+
             consultNav.classList.add('animate__animated')
             consultNav.classList.add('animate__fadeInDown')
 
@@ -72,8 +71,6 @@ let navWayPoint = new Waypoint({
             console.log("about section leave")
             consultNav.classList.remove('animate__animated')
             consultNav.classList.remove('animate__fadeInDown')
-            consultNav.classList.add('animate__animated')
-            consultNav.classList.add('animate__fadeInUp')
             consultNav.classList.toggle("showNavbar")
             consultNav.classList.toggle("bg-primary-dark")
 
