@@ -25,6 +25,15 @@ window.addEventListener('scroll',function (){
 
 })
 
+let ScrolltoTop=()=>{
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
+
+btn_arrow_up.addEventListener('click',ScrolltoTop)
+
 
 
 const els = document.querySelectorAll( '.counter' )
