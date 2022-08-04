@@ -52,7 +52,7 @@
   width: 2px;
   height: 50%;
   background:rgba(0,34,28,.1);
-  top: 65%;
+ 
 }
 
 .work-flow .nav-pills .nav-link.active .point-btn{
@@ -135,6 +135,9 @@ width: 100%;
   .devices{
     margin-top: -9rem;
   }
+  .points>:not(:last-child) .point-btn::after{
+    top: 50%;
+  }
 }
 
 
@@ -144,6 +147,9 @@ width: 100%;
   }
   .consulting .link-border{
     border-left: 1px solid rgba(255,255,255,.2) !important;
+  }
+  .points>:not(:last-child) .point-btn::after{
+    top: 65%;
   }
 }
 
@@ -157,6 +163,10 @@ width: 100%;
 
   .consult-p-control{
     height: 96px;
+  }
+
+  .points>:not(:last-child) .point-btn::after{
+    top: 75%;
   }
 
 }
