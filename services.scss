@@ -102,6 +102,11 @@ figure{
   height: 100%;
 }
 
+.feature:hover{
+  transform: translateY(-15px) !important;
+  transition: 0.5s ease-in-out !important;
+}
+
 @media screen and (max-width: 768px and 912px){
   .service > .browser{
     margin-right: 0 !important;
